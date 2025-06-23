@@ -1,0 +1,9 @@
+{
+  "mainMenu": [
+    { "label": "Home", "path": "/" },
+    { "label": "About", "path": "/about" },
+    { "label": "Services", "path": "/services" },
+    { "label": "Products", "path": "/products" },
+    { "label": "Contact", "path": "/contact" }
+  ]
+}

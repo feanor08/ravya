@@ -1,0 +1,53 @@
+{
+  "name": "house-of-ravya",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "House of Ravya - Sustainable Kids & Pet Wear Manufacturing",
+  "scripts": {
+    "dev": "vite --mode development",
+    "build": "tsc && vite build",
+    "build:staging": "tsc && vite build --mode staging",
+    "build:production": "tsc && vite build --mode production",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext ts,tsx --fix",
+    "type-check": "tsc --noEmit",
+    "deploy:staging": "npm run build:staging && vercel --target staging",
+    "deploy:production": "npm run build:production && vercel --prod",
+    "serve": "npm run build && npm run preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.34.0",
+    "@typescript-eslint/parser": "^8.34.0",
+    "@vitejs/plugin-react-swc": "^3.7.2",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "@vitejs/plugin-react": "^4.3.4"
+  
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "manufacturing",
+    "sustainable",
+    "kids-wear",
+    "pet-wear",
+    "react",
+    "typescript"
+  ],
+  "author": "House of Ravya",
+  "license": "MIT"
+}

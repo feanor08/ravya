@@ -1,0 +1,83 @@
+.card {
+  background: white;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-8px);
+}
+
+.imageContainer {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.card:hover .image {
+  transform: scale(1.05);
+}
+
+.sustainableBadge {
+  position: absolute;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+  background-color: var(--color-olive-green);
+  color: white;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-md);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.content {
+  padding: var(--spacing-lg);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-navy-blue);
+}
+
+.description {
+  color: var(--color-slate-gray);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.5;
+}
+
+.features {
+  list-style: none;
+  margin-bottom: var(--spacing-lg);
+  flex: 1;
+}
+
+.feature {
+  color: var(--color-olive-green);
+  margin-bottom: var(--spacing-xs);
+  font-size: 0.9rem;
+}
+
+.feature::before {
+  content: '✓ ';
+  color: var(--color-olive-green);
+  font-weight: bold;
+  margin-right: var(--spacing-xs);
+}

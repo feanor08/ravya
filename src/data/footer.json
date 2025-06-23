@@ -1,0 +1,18 @@
+{
+  "company": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sustainable manufacturing solutions for kids wear, kids toys, pet wear, and pet toys."
+  },
+  "quickLinks": [
+    { "label": "Home", "path": "/" },
+    { "label": "About Us", "path": "/about" },
+    { "label": "Services", "path": "/services" },
+    { "label": "Products", "path": "/products" },
+    { "label": "Contact", "path": "/contact" }
+  ],
+  "products": ["Kids Wear", "Kids Toys", "Pet Wear", "Pet Toys"],
+  "contact": {
+    "email": "info@houseofravya.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Manufacturing St, Industrial District, City 12345"
+  }
+}

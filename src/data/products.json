@@ -1,0 +1,164 @@
+{
+  "hero": {
+    "title": "Our Products",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Discover our sustainable manufacturing solutions for kids and pets."
+  },
+  "categories": [
+    {
+      "title": "Kids Wear",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. High-quality, comfortable, and sustainable clothing for children.",
+      "products": [
+        {
+          "title": "Organic Cotton T-Shirts",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "features": [
+            "100% organic cotton",
+            "Hypoallergenic materials",
+            "Machine washable",
+            "Variety of colors"
+          ],
+          "sustainable": true
+        },
+        {
+          "title": "Eco-Friendly Pants",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "features": [
+            "Sustainable fabric blend",
+            "Comfortable fit",
+            "Durable construction",
+            "Easy care instructions"
+          ],
+          "sustainable": true
+        },
+        {
+          "title": "Natural Fiber Dresses",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "features": [
+            "Natural fiber materials",
+            "Breathable design",
+            "Stylish patterns",
+            "Growth-friendly sizing"
+          ],
+          "sustainable": true
+        }
+      ]
+    },
+    {
+      "title": "Kids Toys",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Safe, educational, and fun toys manufactured with care.",
+      "products": [
+        {
+          "title": "Educational Building Blocks",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "features": [
+            "Non-toxic materials",
+            "Educational value",
+            "Age-appropriate design",
+            "Safety tested"
+          ],
+          "sustainable": true
+        },
+        {
+          "title": "Eco-Friendly Puzzles",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "features": [
+            "Recycled materials",
+            "Brain development",
+            "Various difficulty levels",
+            "Safe edges"
+          ],
+          "sustainable": true
+        },
+        {
+          "title": "Natural Wooden Toys",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "features": [
+            "Sustainable wood sourcing",
+            "Smooth finish",
+            "Creative play",
+            "Long-lasting quality"
+          ],
+          "sustainable": true
+        }
+      ]
+    },
+    {
+      "title": "Pet Wear",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Comfortable and functional clothing for your beloved pets.",
+      "products": [
+        {
+          "title": "Weather-Resistant Coats",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "features": [
+            "Waterproof material",
+            "Breathable lining",
+            "Adjustable fit",
+            "Reflective elements"
+          ],
+          "sustainable": false
+        },
+        {
+          "title": "Comfort Harnesses",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "features": [
+            "Ergonomic design",
+            "Soft padding",
+            "Secure fastening",
+            "Multiple sizes"
+          ],
+          "sustainable": true
+        },
+        {
+          "title": "Stylish Accessories",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "features": [
+            "Fashion-forward designs",
+            "Comfortable materials",
+            "Easy to clean",
+            "Various styles"
+          ],
+          "sustainable": true
+        }
+      ]
+    },
+    {
+      "title": "Pet Toys",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interactive and engaging toys for pets of all sizes.",
+      "products": [
+        {
+          "title": "Interactive Puzzle Toys",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "features": [
+            "Mental stimulation",
+            "Durable construction",
+            "Easy to clean",
+            "Multiple difficulty levels"
+          ],
+          "sustainable": true
+        },
+        {
+          "title": "Chew-Resistant Toys",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "features": [
+            "Strong materials",
+            "Safe for pets",
+            "Long-lasting",
+            "Various textures"
+          ],
+          "sustainable": false
+        },
+        {
+          "title": "Eco-Friendly Rope Toys",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "features": [
+            "Natural fibers",
+            "Biodegradable",
+            "Dental health benefits",
+            "Hand-braided quality"
+          ],
+          "sustainable": true
+        }
+      ]
+    }
+  ]
+}

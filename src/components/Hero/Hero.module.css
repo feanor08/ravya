@@ -1,0 +1,93 @@
+.hero {
+  background: linear-gradient(135deg, var(--color-warm-beige) 0%, var(--color-soft-ivory) 100%);
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.heroOverlay {
+  background: rgba(27, 38, 59, 0.7);
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+  width: 100%;
+}
+
+.heroContent {
+  max-width: 600px;
+  color: white;
+  text-align: left;
+}
+
+.subtitle {
+  display: inline-block;
+  background-color: var(--color-olive-green);
+  color: white;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: var(--spacing-md);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.title {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: var(--spacing-lg);
+  color: white;
+}
+
+.description {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-2xl);
+  opacity: 0.95;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.ctaButton {
+  font-size: 1.1rem;
+  padding: var(--spacing-md) var(--spacing-xl);
+  min-width: 180px;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    min-height: 70vh;
+    text-align: center;
+  }
+
+  .heroOverlay {
+    min-height: 70vh;
+  }
+
+  .heroContent {
+    text-align: center;
+  }
+
+  .ctaButtons {
+    justify-content: center;
+  }
+
+  .ctaButton {
+    min-width: 160px;
+  }
+}

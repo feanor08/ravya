@@ -1,0 +1,98 @@
+.footer {
+  background-color: var(--color-navy-blue);
+  color: white;
+  margin-top: var(--spacing-3xl);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-3xl) var(--spacing-md) var(--spacing-xl);
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-2xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.footerSection h3,
+.footerSection h4 {
+  color: var(--color-muted-gold);
+  margin-bottom: var(--spacing-md);
+}
+
+.footerTitle {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.sectionTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.footerDescription {
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.sustainability {
+  margin-top: var(--spacing-md);
+}
+
+.sustainabilityBadge {
+  background-color: var(--color-olive-green);
+  color: white;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.footerLinks {
+  list-style: none;
+}
+
+.footerLinks li {
+  margin-bottom: var(--spacing-sm);
+}
+
+.footerLink {
+  color: rgba(255, 255, 255, 0.8);
+  transition: color var(--transition-fast);
+}
+
+.footerLink:hover {
+  color: var(--color-muted-gold);
+}
+
+.contactInfo p {
+  margin-bottom: var(--spacing-sm);
+  opacity: 0.9;
+}
+
+.footerBottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: var(--spacing-lg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.copyright,
+.tagline {
+  opacity: 0.8;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 767px) {
+  .footerBottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
