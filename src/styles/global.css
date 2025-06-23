@@ -1,5 +1,8 @@
+/* ---------------------------------------------------------------------
+   Design Tokens (Palette → Semantic Roles)
+------------------------------------------------------------------------*/
 :root {
-  /* Color Palette */
+  /* Base Palette */
   --color-navy-blue: #1B263B;
   --color-soft-ivory: #FAF9F6;
   --color-slate-gray: #6C757D;
@@ -9,8 +12,19 @@
   --color-warm-beige: #E8E2D0;
   --color-light-gray: #F1F1F1;
 
+  /* Semantic Roles */
+  --color-primary:   var(--color-navy-blue);   /* brand / emphasis              */
+  --color-secondary: var(--color-olive-green); /* optional secondary accent      */
+  --color-accent:    var(--color-terracotta);  /* links, focus, interactive hvr */
+  --color-text:      var(--color-slate-gray);  /* body text                      */
+  --color-background:var(--color-soft-ivory);  /* page background                */
+  --color-surface:   var(--color-warm-beige);  /* cards & surfaces               */
+  --color-border:    var(--color-light-gray);  /* subtle borders / dividers      */
+  --color-highlight: var(--color-muted-gold);  /* badges, highlights, success    */
+
   /* Typography */
-  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', sans-serif;
   --font-family-heading: 'Inter', serif;
 
   /* Spacing */
@@ -39,6 +53,9 @@
   --transition-slow: 350ms ease;
 }
 
+/* ---------------------------------------------------------------------
+   Resets & Base
+------------------------------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -53,36 +70,27 @@ body {
   font-family: var(--font-family-primary);
   font-size: 16px;
   line-height: 1.6;
-  color: var(--color-slate-gray);
-  background-color: var(--color-soft-ivory);
+  color: var(--color-text);
+  background-color: var(--color-background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Typography */
+/* ---------------------------------------------------------------------
+   Typography
+------------------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-heading);
   font-weight: 600;
   line-height: 1.2;
-  color: var(--color-navy-blue);
+  color: var(--color-primary);
   margin-bottom: var(--spacing-md);
 }
 
-h1 {
-  font-size: clamp(2rem, 5vw, 3.5rem);
-}
-
-h2 {
-  font-size: clamp(1.75rem, 4vw, 2.5rem);
-}
-
-h3 {
-  font-size: clamp(1.5rem, 3vw, 2rem);
-}
-
-h4 {
-  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
-}
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); }
+h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
+h4 { font-size: clamp(1.25rem, 2.5vw, 1.5rem); }
 
 p {
   margin-bottom: var(--spacing-md);
@@ -90,16 +98,15 @@ p {
 }
 
 a {
-  color: var(--color-terracotta);
+  color: var(--color-accent);
   text-decoration: none;
   transition: color var(--transition-fast);
 }
+a:hover { color: var(--color-primary); }
 
-a:hover {
-  color: var(--color-navy-blue);
-}
-
-/* Buttons */
+/* ---------------------------------------------------------------------
+   Buttons
+------------------------------------------------------------------------*/
 .btn {
   display: inline-flex;
   align-items: center;
@@ -116,103 +123,74 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: var(--color-navy-blue);
-  color: white;
+  background-color: var(--color-primary);
+  color: #fff;
 }
-
 .btn-primary:hover {
-  background-color: var(--color-terracotta);
-  color: white;
+  background-color: var(--color-accent);
+  color: #fff;
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
 
 .btn-secondary {
-  background-color: var(--color-terracotta);
-  color: white;
+  background-color: var(--color-accent);
+  color: #fff;
 }
-
 .btn-secondary:hover {
-  background-color: var(--color-navy-blue);
-  color: white;
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 .btn-outline {
   background-color: transparent;
-  color: var(--color-navy-blue);
-  border: 2px solid var(--color-navy-blue);
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
 }
-
 .btn-outline:hover {
-  background-color: var(--color-navy-blue);
-  color: white;
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
-/* Cards */
+/* ---------------------------------------------------------------------
+   Cards
+------------------------------------------------------------------------*/
 .card {
-  background-color: white;
+  background-color: var(--color-surface);
   border-radius: var(--radius-lg);
   padding: var(--spacing-xl);
   box-shadow: var(--shadow-sm);
   transition: all var(--transition-normal);
 }
-
 .card:hover {
   box-shadow: var(--shadow-lg);
   transform: translateY(-4px);
 }
 
-/* Container utilities */
+/* ---------------------------------------------------------------------
+   Containers & Layout Utilities
+------------------------------------------------------------------------*/
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 var(--spacing-md);
 }
-
 .container-fluid {
   width: 100%;
   padding: 0 var(--spacing-md);
 }
 
 /* Grid utilities */
-.grid {
-  display: grid;
-  gap: var(--spacing-lg);
-}
-
-.grid-2 {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.grid-3 {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-.grid-4 {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
+.grid { display: grid; gap: var(--spacing-lg); }
+.grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.grid-3 { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+.grid-4 { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
 
 /* Flex utilities */
-.flex {
-  display: flex;
-}
-
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flex-between {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.flex-col {
-  display: flex;
-  flex-direction: column;
-}
+.flex { display: flex; }
+.flex-center  { align-items: center; justify-content: center; }
+.flex-between { align-items: center; justify-content: space-between; }
+.flex-col     { flex-direction: column; }
 
 /* Spacing utilities */
 .mt-auto { margin-top: auto; }
@@ -222,39 +200,31 @@ a:hover {
 
 /* Text utilities */
 .text-center { text-align: center; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }
+.text-left   { text-align: left; }
+.text-right  { text-align: right; }
 
 .text-sm { font-size: 0.875rem; }
 .text-lg { font-size: 1.125rem; }
 .text-xl { font-size: 1.25rem; }
 
-/* Responsive utilities */
-.hide-mobile {
-  display: none;
-}
+/* ---------------------------------------------------------------------
+   Responsive Helpers
+------------------------------------------------------------------------*/
+.hide-mobile { display: none; }
 
 @media (min-width: 768px) {
-  .hide-mobile {
-    display: block;
-  }
-
-  .hide-desktop {
-    display: none;
-  }
-
-  .container {
-    padding: 0 var(--spacing-xl);
-  }
+  .hide-mobile { display: block; }
+  .hide-desktop { display: none; }
+  .container { padding: 0 var(--spacing-xl); }
 }
 
 @media (min-width: 1024px) {
-  .container {
-    padding: 0 var(--spacing-2xl);
-  }
+  .container { padding: 0 var(--spacing-2xl); }
 }
 
-/* Accessibility */
+/* ---------------------------------------------------------------------
+   Accessibility
+------------------------------------------------------------------------*/
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
@@ -263,14 +233,9 @@ a:hover {
   }
 }
 
-/* Focus styles for accessibility */
-*:focus {
-  outline: 2px solid var(--color-terracotta);
-  outline-offset: 2px;
-}
-
+*:focus,
 button:focus,
 a:focus {
-  outline: 2px solid var(--color-terracotta);
+  outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
