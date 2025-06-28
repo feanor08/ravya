@@ -8,6 +8,7 @@ export interface Product {
   description: string
   features: string[]
   sustainable: boolean
+  imagePath: string;
 }
 
 export interface ProductCategory {
@@ -32,6 +33,7 @@ export interface FeatureItem {
   icon: string
   title: string
   description: string
+  imagePath: string
 }
 
 export interface HeroSection {
@@ -40,4 +42,5 @@ export interface HeroSection {
   description: string
   primaryCta?: string
   secondaryCta?: string
+  imagePath: string
 }

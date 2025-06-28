@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import Hero from '@components/Hero/Hero'
 import ProductCard from '@components/ProductCard/ProductCard'
 import styles from './Home.module.css'
-import homeData from '@data/content.json'
+import homeData from '@data/home.json'
 
 const Home: React.FC = () => {
   const navigate = useNavigate()

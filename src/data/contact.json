@@ -1,0 +1,36 @@
+{
+  "contact": {
+    "hero": {
+      "title": "Partner With Us",
+      "description": "Let\u2019s build something beautiful together. We collaborate with like\u2011minded brands, retailers, and impact\u2011led businesses to create collections that matter.",
+      "imagePath": ""
+    },
+    "methods": [
+      {
+        "icon": "\ud83d\udce7",
+        "title": "Email",
+        "value": "sales@houseofravya.com"
+      },
+      {
+        "icon": "\ud83d\udcde",
+        "title": "Phone",
+        "value": "+91-8108963075"
+      },
+      {
+        "icon": "\ud83d\udccd",
+        "title": "Locations",
+        "value": "Bangalore & Mumbai, India"
+      },
+      {
+        "icon": "\ud83c\udf10",
+        "title": "Website",
+        "value": "www.houseofravya.com"
+      },
+      {
+        "icon": "\ud83d\udcc4",
+        "title": "Sample / Brochure",
+        "value": "Email us for sample requests"
+      }
+    ]
+  }
+}

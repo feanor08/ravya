@@ -1,37 +1,18 @@
 {
   "company": {
-    "description": "House of Ravya is an ethical manufacturing and export house rooted in sustainability, craftsmanship, and community empowerment. We create conscious kidswear, pet essentials, and lifestyle products that bring joy, safety, and meaning to everyday life."
+    "description": "Sustainable manufacturing solutions for kids wear, kids toys, pet wear, and pet toys."
   },
   "quickLinks": [
-    {
-      "label": "Home",
-      "path": "/"
-    },
-    {
-      "label": "About Us",
-      "path": "/about"
-    },
-    {
-      "label": "Services",
-      "path": "/services"
-    },
-    {
-      "label": "Products",
-      "path": "/products"
-    },
-    {
-      "label": "Contact",
-      "path": "/contact"
-    }
+    { "label": "Home", "path": "/" },
+    { "label": "About Us", "path": "/about" },
+    { "label": "Services", "path": "/services" },
+    { "label": "Products", "path": "/products" },
+    { "label": "Contact", "path": "/contact" }
   ],
-  "products": [
-    "Kidswear",
-    "Pet Wear",
-    "Pet Beds"
-  ],
+  "products": ["Kids Wear", "Kids Toys", "Pet Wear", "Pet Toys"],
   "contact": {
-    "email": "sales@houseofravya.com",
-    "phone": "+91-8108963075",
-    "address": "Bangalore & Mumbai, India"
+    "email": "info@houseofravya.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Manufacturing St, Industrial District, City 12345"
   }
 }

@@ -1,176 +1,59 @@
-
 {
   "hero": {
     "title": "Our Products",
-    "description": "Explore conscious collections for children and pets—designed in India, crafted with renewable materials, and tested to the highest international safety standards."
+    "description": "Consciously crafted collections for children and companion animals, ethically made and export\u2011ready."
   },
   "categories": [
     {
       "title": "Kids Wear",
-      "description": "Soft, breathable garments made from certified organic and natural fibres, engineered to keep little adventurers comfortable and safe.",
+      "description": "Soft, breathable garments made from certified organic cotton and heritage Indian textiles.",
       "products": [
         {
-          "title": "Organic Cotton T-Shirts",
-          "description": "Ultra-soft tees in playful prints, dyed with Azo-free pigments and built to withstand countless washes and playground tumbles.",
+          "title": "Organic Cotton Romper",
+          "description": "Skin\u2011safe, playful and easy\u2011change one\u2011piece for day\u2011long comfort.",
           "features": [
-            "100% GOTS-certified cotton",
-            "Hypoallergenic & tag-free neck label",
-            "Reinforced shoulder snaps (0-24 m)",
-            "Available in 8 earth-inspired colours"
+            "GOTS\u2011certified cotton",
+            "Nickel\u2011free snap buttons",
+            "Low\u2011impact dyes"
           ],
           "sustainable": true,
-"pathToPic":"src/assets/puppy.JPG"
-        },
-        {
-          "title": "Eco-Stretch Pants",
-          "description": "Room-to-grow bottoms that blend organic cotton with a touch of natural-rubber elastic for flexible, long-lasting wear.",
-          "features": [
-            "Organic cotton / natural-rubber blend",
-            "Stretch waistband for easy changes",
-            "Knee-patch reinforcement",
-            "Low-impact reactive dyes"
-          ],
-          "sustainable": true,
-"pathToPic":"src/assets/puppy.JPG"
-        },
-        {
-          "title": "Linen-Blend Dresses",
-          "description": "Lightweight, twirl-friendly silhouettes featuring coconut-shell buttons and airy linen-cotton weaves for hot summer days.",
-          "features": [
-            "55% linen / 45% organic cotton",
-            "Breathable A-line cut",
-            "Hand-embroidered details",
-            "Adjustable shoulder ties"
-          ],
-          "sustainable": true,
-"pathToPic":"src/assets/puppy.JPG"
-        }
-      ]
-    },
-    {
-      "title": "Kids Toys",
-      "description": "Learning-driven playthings crafted from renewable resources and finished with food-grade coatings for worry-free fun.",
-      "products": [
-        {
-          "title": "Educational Building Blocks",
-          "description": "Colour-coded wooden blocks that teach shapes, numbers, and stacking physics while sparking imagination.",
-          "features": [
-            "FSC-certified beech wood",
-            "Non-toxic water-based paints",
-            "STEM activity guide included",
-            "Rounded edges for safety"
-          ],
-          "sustainable": true,
-"pathToPic":"src/assets/puppy.JPG"
-        },
-        {
-          "title": "Recycled Cardboard Puzzles",
-          "description": "Beautifully illustrated jigsaws printed on 100% post-consumer board to develop fine motor skills and patience.",
-          "features": [
-            "Recycled, bleach-free board",
-            "Soy-ink printing",
-            "Multiple difficulty tiers (24–100 pcs)",
-            "Resealable kraft pouch"
-          ],
-          "sustainable": true,
-"pathToPic":"src/assets/puppy.JPG"
-        },
-        {
-          "title": "Natural Wooden Pull Toys",
-          "description": "Classic pull-along animals with smooth rolling wheels, encouraging toddlers to walk and explore.",
-          "features": [
-            "Locally sourced neem wood",
-            "Plant-based varnish",
-            "Cotton pull cord",
-            "Hand-sanded finish"
-          ],
-          "sustainable": true,
-"pathToPic":"src/assets/puppy.JPG"
+          "imagePath": "src/assets/kids_romper.jpg"
         }
       ]
     },
     {
       "title": "Pet Wear",
-      "description": "Functional, comfortable apparel engineered for wagging tails and endless adventures—without compromising on style.",
+      "description": "Lightweight, toxin\u2011free accessories that keep furry friends comfortable and stylish.",
       "products": [
         {
-          "title": "Weather-Resistant Coats",
-          "description": "Lightweight shell jackets that shield pups from rain and wind while keeping them visible on evening walks.",
+          "title": "Hand\u2011Blocked Cotton Bandana",
+          "description": "Breathable bandana featuring traditional Indian block prints.",
           "features": [
-            "Waterproof recycled polyester",
-            "Mesh lining for airflow",
-            "Adjustable belly strap",
-            "360° reflective piping"
-          ],
-          "sustainable": false
-        },
-        {
-          "title": "Comfort Harnesses",
-          "description": "Ergonomic Y-frame harnesses that distribute pressure evenly and prevent chafing on sensitive fur.",
-          "features": [
-            "Soft neoprene padding",
-            "Aluminium leash ring",
-            "Four-point size adjusters",
-            "Machine-washable"
+            "Soft organic cotton",
+            "Adjustable tie\u2011on fit",
+            "Machine\u2011washable"
           ],
           "sustainable": true,
-          "pathToPic":"src/assets/puppy.JPG"
-        },
-        {
-          "title": "Bandanas & Bows",
-          "description": "Reversible accessories cut from production off-cuts—turning surplus fabric into tail-wagging fashion.",
-          "features": [
-            "Upcycled organic fabrics",
-            "Easy tie-on design",
-            "Two prints per piece",
-            "Low-impact screen prints"
-          ],
-          "sustainable": true,
-"pathToPic":"src/assets/puppy.JPG"
+          "imagePath": "src/assets/pet_bandana.jpg"
         }
       ]
     },
     {
-      "title": "Pet Toys",
-      "description": "Durable, enriching toys that keep pets engaged while prioritising safety and eco-responsibility.",
+      "title": "Pet Beds",
+      "description": "Supportive, hypoallergenic beds woven with natural fibres and filled with recycled stuffing.",
       "products": [
         {
-          "title": "Interactive Puzzle Toys",
-          "description": "Treat-dispensing puzzles that challenge canine problem-solving skills and reduce boredom.",
+          "title": "Handwoven Pet Bed",
+          "description": "Durable outer weave with removable, washable cushion insert.",
           "features": [
-            "BPA-free recycled plastic",
-            "Dishwasher-safe parts",
-            "Interchangeable difficulty sliders",
-            "Non-slip base"
+            "Natural jute\u2011cotton blend",
+            "Hypoallergenic recycled fill",
+            "Non\u2011slip base"
           ],
           "sustainable": true,
-"pathToPic":"src/assets/puppy.JPG"
-        },
-        {
-          "title": "Chew-Resistant Toys",
-          "description": "Tough yet gentle chew bones engineered for aggressive gnawers, tested to outlast conventional rubber toys.",
-          "features": [
-            "Food-grade TPE blend",
-            "Textured nubs for gum massage",
-            "Floats in water",
-            "Vet-approved safety"
-          ],
-          "sustainable": false
-        },
-        {
-          "title": "Eco-Friendly Rope Toys",
-          "description": "Hand-braided tug ropes that double as dental floss, spun from natural jute and cotton fibres.",
-          "features": [
-            "100% biodegradable fibres",
-            "Plant-based dyes",
-            "Fray-resistant twist",
-            "Compost-ready at end of life"
-          ],
-          "sustainable": true,
-"pathToPic":"src/assets/puppy.JPG"
+          "imagePath": "src/assets/pet_bed.jpg"
         }
       ]
     }
   ]
 }
-

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './About.module.css'
-import aboutData from '@data/content.json'
+import aboutData from '@data/about.json'
 
 const About: React.FC = () => {
   return (

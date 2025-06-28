@@ -1,0 +1,66 @@
+{
+  "about": {
+    "hero": {
+      "title": "Where Tenderness Meets Tradition",
+      "description": "House of Ravya was born from a desire to bring India\u2019s timeless textile heritage into the lives of families around the world.",
+      "imagePath": ""
+    },
+    "story": {
+      "title": "Our Story",
+      "content": [
+        "At HOR, we collaborate with master artisans across India\u2014reviving age\u2011old crafts like Ajrakh, hand block printing, and khadi weaving. Each piece is created slowly and mindfully, using natural materials and traditional processes that honor the earth and those who work with it.\n\nOur journey is rooted in simplicity, authenticity, and emotion. We believe that what touches the skin of a baby or a beloved pet should be as honest and pure as the love they bring into our lives.\n\nFrom the first thread to the final touch, every product carries a story of human hands, heritage, and heart. This is not just fashion\u2014it is a homecoming to values we hold dear: warmth, comfort, and conscious living."
+      ],
+      "image": ""
+    },
+    "values": {
+      "title": "Why Choose House of Ravya",
+      "items": [
+        {
+          "icon": "\ud83e\udea1",
+          "title": "Artisan Craftsmanship",
+          "description": "Handmade by Indian artisans using heritage techniques like Ajrakh, block printing, Jamdani, and IKAT. Every textile carries a story of tradition, care, and cultural pride.",
+          "imagePath": ""
+        },
+        {
+          "icon": "\ud83c\udf3f",
+          "title": "Sustainability",
+          "description": "Natural fibres, eco\u2011friendly dyes, and intentional low\u2011impact processes that are safe for sensitive skin and the planet. Ethical, transparent, and waste\u2011conscious production.",
+          "imagePath": ""
+        },
+        {
+          "icon": "\ud83c\udf0d",
+          "title": "Global Appeal",
+          "description": "Design\u2011led craftsmanship and export\u2011ready quality for discerning international buyers. Bringing the soul of Indian artistry into homes worldwide.",
+          "imagePath": ""
+        },
+        {
+          "icon": "\u2705",
+          "title": "Low MOQs & Certifications",
+          "description": "Low MOQs, dedicated sampling team, 30\u201345 day turnaround, with recognised sustainability certifications.",
+          "imagePath": ""
+        }
+      ]
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "A collective of designers, technologists, and community leaders committed to conscious craft and social impact.",
+      "members": [
+        {
+          "name": "Ravya Patel",
+          "role": "Founder & Creative Director",
+          "bio": "Fuses traditional Indian crafts with modern aesthetics to bring every collection to life."
+        },
+        {
+          "name": "Arjun Menon",
+          "role": "Head of Production",
+          "bio": "Leads ethical manufacturing, ensuring quality and fair practices across partner facilities."
+        },
+        {
+          "name": "Sahana Rao",
+          "role": "Sustainability Lead",
+          "bio": "Drives circular material strategy and impact reporting for customers and stakeholders."
+        }
+      ]
+    }
+  }
+}

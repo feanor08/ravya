@@ -1,0 +1,79 @@
+{
+  "home": {
+    "hero": {
+      "title": "House of Ravya",
+      "subtitle": "Rooted in India. Raised for the world.",
+      "description": "Discover a world where tradition meets tenderness.",
+      "primaryCta": "Discover Our World",
+      "secondaryCta": "Start a Project",
+      "imagePath": ""
+    },
+    "features": {
+      "title": "What We Stand For",
+      "description": "We\u2019re not just manufacturers \u2014 we\u2019re partners in building a better, kinder future.",
+      "items": [
+        {
+          "icon": "\ud83c\udf31",
+          "title": "Regenerative Materials",
+          "description": "Khadi, kala cotton, banana fibre, pineapple fibre and other low\u2011impact textiles.",
+          "imagePath": ""
+        },
+        {
+          "icon": "\ud83d\udc69\u200d\ud83c\udf3e",
+          "title": "Women\u2011Led Production",
+          "description": "Rural and tribal units that provide fair wages and dignified livelihoods.",
+          "imagePath": ""
+        },
+        {
+          "icon": "\ud83e\uddf5",
+          "title": "Small\u2011Batch Transparency",
+          "description": "Clear, traceable manufacturing and fair\u2011wage craftsmanship at every step.",
+          "imagePath": ""
+        },
+        {
+          "icon": "\ud83c\udf3f",
+          "title": "Clean Dyes & Packaging",
+          "description": "Plant\u2011based dyes and biodegradable, plastic\u2011free packaging.",
+          "imagePath": ""
+        }
+      ]
+    },
+    "products": {
+      "title": "Crafted Responsibly, Delivered Globally",
+      "description": "From soulful kidswear to pet essentials, we craft export\u2011ready collections that meet the highest international standards.",
+      "featured": [
+        {
+          "title": "Kidswear & Infant Accessories",
+          "description": "Soft, certified\u2011safe fabrics blended with heritage prints and modern silhouettes.",
+          "features": [
+            "Organic cotton & natural fibres",
+            "Safe, skin\u2011friendly dyes",
+            "Age\u2011appropriate sizing",
+            "OEKO\u2011TEX / GOTS compliance"
+          ],
+          "sustainable": true,
+          "image": "src/assets/frontpage_kids_wear_collection.jpeg",
+          "imagePath": "src/assets/frontpage_kids_wear_collection.jpeg"
+        },
+        {
+          "title": "Pet Beds, Apparel & Toys",
+          "description": "Comfort\u2011first engineering for furry friends, from rainy\u2011day jackets to snuggly chew\u2011proof beds.",
+          "features": [
+            "Pet\u2011safe, bite\u2011resistant textiles",
+            "Weather\u2011resistant coatings",
+            "Easy\u2011clean construction",
+            "Low\u2011impact stuffing options"
+          ],
+          "sustainable": true,
+          "image": "src/assets/frontpage_petwear.JPG",
+          "imagePath": "src/assets/frontpage_petwear.JPG"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Build Something Beautiful?",
+      "description": "Let\u2019s co\u2011create slow, thoughtful products that carry meaning and value.",
+      "buttonText": "Partner With Us"
+    }
+  }
+}

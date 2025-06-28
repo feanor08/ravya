@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Services.module.css'
-import servicesData from '@data/content.json'
+import servicesData from '@data/services.json'
 
 const Services: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from './Contact.module.css'
-import contactData from '@data/content.json'
+import contactData from '@data/contact.json'
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({

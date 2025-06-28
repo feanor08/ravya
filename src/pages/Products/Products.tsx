@@ -29,7 +29,7 @@ const Products: React.FC = () => {
                   key={productIndex}
                   title={product.title}
                   description={product.description}
-                  image={product.pathToPic!}
+                  image={product.imagePath}
                   features={product.features}
                   sustainable={product.sustainable} />
               ))}
