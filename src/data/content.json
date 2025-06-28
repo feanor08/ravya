@@ -1,195 +1,244 @@
 {
   "home": {
     "hero": {
-      "title": "Welcome to House of Ravya (HOR)",
-      "subtitle": "Rooted in India. Raised for the world.",
-      "description": "Discover a world where tradition meets tenderness.",
-      "primaryCta": "View Our Products",
-      "secondaryCta": "Get Quote"
+      "title": "Where Craft Meets Conscious Living",
+      "subtitle": "Sustainable Textiles | Ethical Production | Global Standards",
+      "description": "House of Ravya creates with purpose. From kids-wear and thoughtful pet accessories to home and lifestyle products, every piece reflects our commitment to conscious creation and community empowerment.",
+      "primaryCta": "Discover Our World",
+      "secondaryCta": "Start a Project"
     },
     "features": {
-      "title": "Why Choose House of Ravya",
-      "description": "Where Craft Meets Conscious Living",
+      "title": "What We Stand For",
+      "description": "We’re not just manufacturers — we’re partners in building a better, kinder future.",
       "items": [
         {
-          "icon": "👐",
-          "title": "Artisan Craftsmanship",
-          "description": "Handmade by Indian artisans using heritage crafts like Ajrakh, block printing, Jamdani, and IKAT. Each product carries centuries‑old stories of tradition, care, and cultural pride, designed for babies and pets alike."
-        },
-        {
           "icon": "🌱",
-          "title": "Sustainability",
-          "description": "We choose natural fibers, eco‑friendly dyes, and low‑impact, small‑batch processes. Fair wages, dignified livelihoods, and full supply‑chain traceability ensure ethics at every step."
+          "title": "Regenerative Materials",
+          "description": "Khadi, kala cotton, banana fibre, pineapple fibre and other low-impact textiles."
         },
         {
-          "icon": "🌍",
-          "title": "Global Appeal",
-          "description": "Design‑led craftsmanship, export‑ready quality, and low MOQs with 30–45‑day turnaround. Made in India and celebrated worldwide."
+          "icon": "👩‍🌾",
+          "title": "Women-Led Production",
+          "description": "Rural and tribal units that provide fair wages and dignified livelihoods."
+        },
+        {
+          "icon": "🧵",
+          "title": "Small-Batch Transparency",
+          "description": "Flexible MOQs, clear lead times, and open communication all the way."
+        },
+        {
+          "icon": "🎓",
+          "title": "Skill Development",
+          "description": "Ongoing training that keeps traditional craft alive and artisans future-ready."
+        },
+        {
+          "icon": "🌊",
+          "title": "Clean Dyes & Packaging",
+          "description": "Azo-free or natural colourants and biodegradable, plastic-free packs."
         }
       ]
     },
     "products": {
-      "title": "Our Product Categories",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "title": "Crafted Responsibly, Delivered Globally",
+      "description": "Whether you’re a start-up or an established label, we co-create sustainable collections that meet the highest international standards.",
       "featured": [
         {
-          "title": "Kids Wear Collection",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "title": "Baby-Wear & Infant Accessories",
+          "description": "Soft, certified-safe fabrics with adorable yet practical designs.",
           "features": [
-            "Organic cotton materials",
-            "Safe dyes and finishes",
-            "Comfortable fit designs",
-            "Durable construction"
+            "Organic cotton & natural fibres",
+            "Safe, skin-friendly dyes",
+            "Age-appropriate sizing",
+            "OEKO-TEX / GOTS compliance"
           ],
-          "sustainable": true
+          "sustainable": true,
+          "image" : "src/assets/frontpage kids wear collection.jpeg"
         },
         {
-          "title": "Pet Wear & Accessories",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "title": "Pet Beds, Apparel & Toys",
+          "description": "Comfort-first engineering for furry friends, from rainy-day jackets to snuggly chew-proof beds.",
           "features": [
-            "Pet-safe materials",
-            "Comfortable designs",
-            "Weather resistant",
-            "Easy to clean"
+            "Pet-safe, bite-resistant textiles",
+            "Weather-resistant coatings",
+            "Easy-clean construction",
+            "Low-impact stuffing options"
           ],
-          "sustainable": true
+          "sustainable": true,
+          "image":"src/assets/frontpage petwear.JPG"
         }
       ]
     },
     "cta": {
-      "title": "Ready to Start Your Project?",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "buttonText": "Contact Us Today"
+      "title": "Ready to Build Something Beautiful?",
+      "description": "Let’s co-create slow, thoughtful products that carry meaning and value.",
+      "buttonText": "Partner With Us"
     }
   },
+
   "about": {
     "hero": {
       "title": "Tradition. Innovation. Impact.",
-      "description": "House of Ravya was born out of a simple yet powerful idea — to celebrate Indian artisanal traditions while building a responsible, modern supply chain."
+      "description": "House of Ravya was born to celebrate Indian artisanal traditions while building a responsible, modern supply chain."
     },
     "story": {
       "title": "Our Story",
-      "content": "House of Ravya was born from a desire to bring India’s timeless textile heritage into the lives of families around the world. What began as a deep appreciation for handcrafted fabrics has grown into a conscious design house creating soulful babywear and pet accessories, woven with care and cultural depth.\n\nAt HOR, we collaborate with master artisans across India—reviving age‑old crafts like Ajrakh, hand block printing, and khadi weaving. Each piece is created slowly and mindfully, using natural materials and traditional processes that honor the earth and those who work with it.\n\nOur journey is rooted in simplicity, authenticity, and emotion. We believe that what touches the skin of a baby or a beloved pet should be as honest and pure as the love they bring into our lives.\n\nFrom the first thread to the final touch, every product carries a story of human hands, heritage, and heart. This is not just fashion—it is a homecoming to values we hold dear: warmth, comfort, and conscious living."
+      "content": "Based in India and working closely with rural artisans, we blend natural materials, intentional design, and ethical manufacturing practices. Our name, Ravya – meaning “sun-born” – reflects our philosophy: grounded, radiant, and full of life. We exist to revive artisanal voices while yearning for authenticity in every stitch.",
+      "image":"src/assets/our story photo.jpg"
     },
     "values": {
-      "title": "What We Stand For",
+      "title": "Core Principles",
       "items": [
         {
-          "icon": "🌾",
-          "title": "Regenerative Materials",
-          "description": "Low‑impact fibers like khadi, kala cotton, banana fiber, and pineapple fiber."
+          "icon": "🌍",
+          "title": "Sustainability",
+          "description": "Circular design and regenerative materials at every step."
         },
         {
-          "icon": "👩‍🧵",
-          "title": "Women‑Led Production",
-          "description": "Rural and tribal units led by women, providing fair wages and skill development."
+          "icon": "🤝",
+          "title": "Fair Partnership",
+          "description": "Transparent contracts, fair wages, and capacity-building for artisans."
         },
         {
-          "icon": "🔍",
-          "title": "Transparency",
-          "description": "Small‑batch manufacturing with clean dyes and biodegradable packaging."
+          "icon": "⭐",
+          "title": "Quality",
+          "description": "Export-grade standards, rigorous QC, and continuous improvement."
         }
       ]
     },
     "team": {
       "title": "Our Team",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "A network of designers, technologists, and community leaders who believe craft can change the world.",
       "members": [
         {
-          "name": "John Doe",
-          "role": "CEO & Founder",
-          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore."
+          "name": "Ravya Patel",
+          "role": "Co-Founder & Creative Director",
+          "bio": "Fuses traditional Indian crafts with modern aesthetics to bring every collection to life."
         },
         {
-          "name": "Jane Smith",
-          "role": "Head of Manufacturing",
-          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore."
+          "name": "Arjun Menon",
+          "role": "Head of Production",
+          "bio": "Leads ethical manufacturing, ensuring quality and fair practices across partner facilities."
         },
         {
-          "name": "Mike Johnson",
-          "role": "Quality Control Manager",
-          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore."
+          "name": "Sahana Rao",
+          "role": "Sustainability Lead",
+          "bio": "Drives circular material strategy and impact reporting for customers and stakeholders."
         }
       ]
     }
   },
+
   "services": {
     "hero": {
       "title": "Manufacturing Services",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "description": "Flexible, end-to-end support for brands committed to conscious craft."
     },
     "list": [
       {
-        "icon": "👶",
-        "title": "Kids Wear Manufacturing",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "📐",
+        "title": "Design & Development",
+        "description": "Collaborative product design, tech-packs, and trim selection.",
         "features": [
-          "Organic cotton sourcing",
-          "Safe dye processes",
-          "Size range expertise",
-          "Comfort-first designs"
+          "Concept sketches & CAD",
+          "Material selection guidance",
+          "Tech-pack documentation",
+          "Prototype iterations"
         ]
       },
       {
-        "icon": "🧸",
-        "title": "Kids Toys Production",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "🧶",
+        "title": "Ethical Sourcing",
+        "description": "Natural fibre procurement and traceability from farm to loom.",
         "features": [
-          "Safety compliance testing",
-          "Non-toxic materials",
-          "Educational design focus",
-          "Durability standards"
+          "Farm-level traceability",
+          "Certified mills & weavers",
+          "Low-impact fibre options",
+          "Supplier audits"
         ]
       },
       {
-        "icon": "🐕",
-        "title": "Pet Wear Manufacturing",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "🎨",
+        "title": "Custom Dyeing",
+        "description": "Natural and azo-free colour stories tailored to brand palettes.",
         "features": [
-          "Pet-safe materials",
-          "Comfort engineering",
-          "Weather resistance",
-          "Easy maintenance"
+          "Natural dye palette",
+          "Azo-free lab dips",
+          "Small-batch colour matching",
+          "Wastewater-compliant processes"
         ]
       },
       {
-        "icon": "🎾",
-        "title": "Pet Toys Production",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "icon": "🧪",
+        "title": "Prototyping & Sampling",
+        "description": "Rapid sample cycles with dedicated sampling units.",
         "features": [
-          "Bite-resistant materials",
-          "Interactive designs",
-          "Safety standards",
-          "Engaging features"
+          "Dedicated sampling lines",
+          "Size-set grading",
+          "Pre-production testing",
+          "2-3 week turnaround"
+        ]
+      },
+      {
+        "icon": "🏭",
+        "title": "Small-Batch to Bulk Production",
+        "description": "Low MOQs with scalable capacity across vetted partners.",
+        "features": [
+          "Flexible MOQs",
+          "Lean manufacturing lines",
+          "Scalable capacity planning",
+          "Inline quality checkpoints"
+        ]
+      },
+      {
+        "icon": "📦",
+        "title": "Sustainable Packaging",
+        "description": "Biodegradable and recycled packaging solutions.",
+        "features": [
+          "Compostable mailers",
+          "Recycled paper labels",
+          "Zero-plastic seals",
+          "Custom branded packs"
+        ]
+      },
+      {
+        "icon": "🚚",
+        "title": "Export & Logistics",
+        "description": "End-to-end documentation and international shipping support.",
+        "features": [
+          "Export documentation",
+          "Customs clearance",
+          "Multi-modal shipping",
+          "Partner warehousing"
         ]
       }
     ],
     "process": {
-      "title": "Our Manufacturing Process",
+      "title": "Our Process",
       "steps": [
         {
           "title": "Consultation",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "description": "Align on goals, materials, timelines, and compliance needs."
         },
         {
           "title": "Design & Planning",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "description": "Tech-pack creation and sourcing approvals."
         },
         {
           "title": "Production",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "description": "Small-batch or bulk runs in certified facilities."
         },
         {
           "title": "Quality Control",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "description": "Multi-stage inspection and lab testing before dispatch."
         }
       ]
     }
   },
+
   "contact": {
     "hero": {
-      "title": "Partner With Us",
-      "description": "Let’s Build Something Beautiful Together"
+      "title": "Contact House of Ravya",
+      "description": "Let’s build something beautiful together. We reply within one working day."
     },
     "methods": [
       {
@@ -198,19 +247,19 @@
         "value": "sales@houseofravya.com"
       },
       {
-        "icon": "📱",
+        "icon": "📞",
         "title": "Phone",
         "value": "+91-8108963075"
       },
       {
         "icon": "📍",
-        "title": "Address",
+        "title": "Locations",
         "value": "Bangalore & Mumbai, India"
       },
       {
-        "icon": "🕒",
-        "title": "Business Hours",
-        "value": "Mon-Fri: 9AM-6PM, Sat: 9AM-2PM"
+        "icon": "🌐",
+        "title": "Website",
+        "value": "www.houseofravya.com"
       }
     ]
   }

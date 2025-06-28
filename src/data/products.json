@@ -1,62 +1,176 @@
+
 {
   "hero": {
     "title": "Our Products",
-    "description": "Discover our world of conscious craft"
+    "description": "Explore conscious collections for children and pets—designed in India, crafted with renewable materials, and tested to the highest international safety standards."
   },
   "categories": [
     {
-      "title": "Kidswear",
-      "description": "Wrap your little one in love, comfort, and culture. Our kidswear collection is made from breathable, naturally dyed cottons using traditional Indian textiles like Ajrakh, block prints, and hand‑woven fabrics. From rompers to dresses, every piece is gentle on delicate skin and designed for play and sleep.",
-      "products": []
+      "title": "Kids Wear",
+      "description": "Soft, breathable garments made from certified organic and natural fibres, engineered to keep little adventurers comfortable and safe.",
+      "products": [
+        {
+          "title": "Organic Cotton T-Shirts",
+          "description": "Ultra-soft tees in playful prints, dyed with Azo-free pigments and built to withstand countless washes and playground tumbles.",
+          "features": [
+            "100% GOTS-certified cotton",
+            "Hypoallergenic & tag-free neck label",
+            "Reinforced shoulder snaps (0-24 m)",
+            "Available in 8 earth-inspired colours"
+          ],
+          "sustainable": true,
+"pathToPic":"src/assets/puppy.JPG"
+        },
+        {
+          "title": "Eco-Stretch Pants",
+          "description": "Room-to-grow bottoms that blend organic cotton with a touch of natural-rubber elastic for flexible, long-lasting wear.",
+          "features": [
+            "Organic cotton / natural-rubber blend",
+            "Stretch waistband for easy changes",
+            "Knee-patch reinforcement",
+            "Low-impact reactive dyes"
+          ],
+          "sustainable": true,
+"pathToPic":"src/assets/puppy.JPG"
+        },
+        {
+          "title": "Linen-Blend Dresses",
+          "description": "Lightweight, twirl-friendly silhouettes featuring coconut-shell buttons and airy linen-cotton weaves for hot summer days.",
+          "features": [
+            "55% linen / 45% organic cotton",
+            "Breathable A-line cut",
+            "Hand-embroidered details",
+            "Adjustable shoulder ties"
+          ],
+          "sustainable": true,
+"pathToPic":"src/assets/puppy.JPG"
+        }
+      ]
+    },
+    {
+      "title": "Kids Toys",
+      "description": "Learning-driven playthings crafted from renewable resources and finished with food-grade coatings for worry-free fun.",
+      "products": [
+        {
+          "title": "Educational Building Blocks",
+          "description": "Colour-coded wooden blocks that teach shapes, numbers, and stacking physics while sparking imagination.",
+          "features": [
+            "FSC-certified beech wood",
+            "Non-toxic water-based paints",
+            "STEM activity guide included",
+            "Rounded edges for safety"
+          ],
+          "sustainable": true,
+"pathToPic":"src/assets/puppy.JPG"
+        },
+        {
+          "title": "Recycled Cardboard Puzzles",
+          "description": "Beautifully illustrated jigsaws printed on 100% post-consumer board to develop fine motor skills and patience.",
+          "features": [
+            "Recycled, bleach-free board",
+            "Soy-ink printing",
+            "Multiple difficulty tiers (24–100 pcs)",
+            "Resealable kraft pouch"
+          ],
+          "sustainable": true,
+"pathToPic":"src/assets/puppy.JPG"
+        },
+        {
+          "title": "Natural Wooden Pull Toys",
+          "description": "Classic pull-along animals with smooth rolling wheels, encouraging toddlers to walk and explore.",
+          "features": [
+            "Locally sourced neem wood",
+            "Plant-based varnish",
+            "Cotton pull cord",
+            "Hand-sanded finish"
+          ],
+          "sustainable": true,
+"pathToPic":"src/assets/puppy.JPG"
+        }
+      ]
     },
     {
       "title": "Pet Wear",
-      "description": "Hand‑crafted pet wear blending comfort, durability, and cultural charm. Made with soft, toxin‑free cottons and prints, each piece is lightweight, breathable, and easy to wear—keeping companions cozy and stylish while supporting artisan livelihoods.",
-      "products": []
-    },
-    {
-      "title": "Pet Beds",
-      "description": "Every pet deserves a soft place to land. Our beds are filled with hypoallergenic stuffing and lined with love. Sustainable, breathable, and built to last—just like the bond with your pet.",
-      "products": []
+      "description": "Functional, comfortable apparel engineered for wagging tails and endless adventures—without compromising on style.",
+      "products": [
+        {
+          "title": "Weather-Resistant Coats",
+          "description": "Lightweight shell jackets that shield pups from rain and wind while keeping them visible on evening walks.",
+          "features": [
+            "Waterproof recycled polyester",
+            "Mesh lining for airflow",
+            "Adjustable belly strap",
+            "360° reflective piping"
+          ],
+          "sustainable": false
+        },
+        {
+          "title": "Comfort Harnesses",
+          "description": "Ergonomic Y-frame harnesses that distribute pressure evenly and prevent chafing on sensitive fur.",
+          "features": [
+            "Soft neoprene padding",
+            "Aluminium leash ring",
+            "Four-point size adjusters",
+            "Machine-washable"
+          ],
+          "sustainable": true,
+          "pathToPic":"src/assets/puppy.JPG"
+        },
+        {
+          "title": "Bandanas & Bows",
+          "description": "Reversible accessories cut from production off-cuts—turning surplus fabric into tail-wagging fashion.",
+          "features": [
+            "Upcycled organic fabrics",
+            "Easy tie-on design",
+            "Two prints per piece",
+            "Low-impact screen prints"
+          ],
+          "sustainable": true,
+"pathToPic":"src/assets/puppy.JPG"
+        }
+      ]
     },
     {
       "title": "Pet Toys",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interactive and engaging toys for pets of all sizes.",
+      "description": "Durable, enriching toys that keep pets engaged while prioritising safety and eco-responsibility.",
       "products": [
         {
           "title": "Interactive Puzzle Toys",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "description": "Treat-dispensing puzzles that challenge canine problem-solving skills and reduce boredom.",
           "features": [
-            "Mental stimulation",
-            "Durable construction",
-            "Easy to clean",
-            "Multiple difficulty levels"
+            "BPA-free recycled plastic",
+            "Dishwasher-safe parts",
+            "Interchangeable difficulty sliders",
+            "Non-slip base"
           ],
-          "sustainable": true
+          "sustainable": true,
+"pathToPic":"src/assets/puppy.JPG"
         },
         {
           "title": "Chew-Resistant Toys",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "description": "Tough yet gentle chew bones engineered for aggressive gnawers, tested to outlast conventional rubber toys.",
           "features": [
-            "Strong materials",
-            "Safe for pets",
-            "Long-lasting",
-            "Various textures"
+            "Food-grade TPE blend",
+            "Textured nubs for gum massage",
+            "Floats in water",
+            "Vet-approved safety"
           ],
           "sustainable": false
         },
         {
           "title": "Eco-Friendly Rope Toys",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "description": "Hand-braided tug ropes that double as dental floss, spun from natural jute and cotton fibres.",
           "features": [
-            "Natural fibers",
-            "Biodegradable",
-            "Dental health benefits",
-            "Hand-braided quality"
+            "100% biodegradable fibres",
+            "Plant-based dyes",
+            "Fray-resistant twist",
+            "Compost-ready at end of life"
           ],
-          "sustainable": true
+          "sustainable": true,
+"pathToPic":"src/assets/puppy.JPG"
         }
       ]
     }
   ]
 }
+

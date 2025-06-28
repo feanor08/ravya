@@ -64,7 +64,7 @@ const Home: React.FC = () => {
                 key={index}
                 title={product.title}
                 description={product.description}
-                image={`https://picsum.photos/400/300?random=${index + 10}`}
+                image={product.image}
                 features={product.features}
                 sustainable={product.sustainable}
               />

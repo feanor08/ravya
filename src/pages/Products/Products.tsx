@@ -29,10 +29,9 @@ const Products: React.FC = () => {
                   key={productIndex}
                   title={product.title}
                   description={product.description}
-                  image={`https://picsum.photos/400/300?random=${categoryIndex * 10 + productIndex + 200}`}
+                  image={product.pathToPic!}
                   features={product.features}
-                  sustainable={product.sustainable}
-                />
+                  sustainable={product.sustainable} />
               ))}
             </div>
           </div>
