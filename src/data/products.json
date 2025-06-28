@@ -1,125 +1,23 @@
 {
   "hero": {
     "title": "Our Products",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Discover our sustainable manufacturing solutions for kids and pets."
+    "description": "Discover our world of conscious craft"
   },
   "categories": [
     {
-      "title": "Kids Wear",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. High-quality, comfortable, and sustainable clothing for children.",
-      "products": [
-        {
-          "title": "Organic Cotton T-Shirts",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "features": [
-            "100% organic cotton",
-            "Hypoallergenic materials",
-            "Machine washable",
-            "Variety of colors"
-          ],
-          "sustainable": true
-        },
-        {
-          "title": "Eco-Friendly Pants",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "features": [
-            "Sustainable fabric blend",
-            "Comfortable fit",
-            "Durable construction",
-            "Easy care instructions"
-          ],
-          "sustainable": true
-        },
-        {
-          "title": "Natural Fiber Dresses",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "features": [
-            "Natural fiber materials",
-            "Breathable design",
-            "Stylish patterns",
-            "Growth-friendly sizing"
-          ],
-          "sustainable": true
-        }
-      ]
-    },
-    {
-      "title": "Kids Toys",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Safe, educational, and fun toys manufactured with care.",
-      "products": [
-        {
-          "title": "Educational Building Blocks",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "features": [
-            "Non-toxic materials",
-            "Educational value",
-            "Age-appropriate design",
-            "Safety tested"
-          ],
-          "sustainable": true
-        },
-        {
-          "title": "Eco-Friendly Puzzles",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "features": [
-            "Recycled materials",
-            "Brain development",
-            "Various difficulty levels",
-            "Safe edges"
-          ],
-          "sustainable": true
-        },
-        {
-          "title": "Natural Wooden Toys",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "features": [
-            "Sustainable wood sourcing",
-            "Smooth finish",
-            "Creative play",
-            "Long-lasting quality"
-          ],
-          "sustainable": true
-        }
-      ]
+      "title": "Kidswear",
+      "description": "Wrap your little one in love, comfort, and culture. Our kidswear collection is made from breathable, naturally dyed cottons using traditional Indian textiles like Ajrakh, block prints, and hand‑woven fabrics. From rompers to dresses, every piece is gentle on delicate skin and designed for play and sleep.",
+      "products": []
     },
     {
       "title": "Pet Wear",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Comfortable and functional clothing for your beloved pets.",
-      "products": [
-        {
-          "title": "Weather-Resistant Coats",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "features": [
-            "Waterproof material",
-            "Breathable lining",
-            "Adjustable fit",
-            "Reflective elements"
-          ],
-          "sustainable": false
-        },
-        {
-          "title": "Comfort Harnesses",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "features": [
-            "Ergonomic design",
-            "Soft padding",
-            "Secure fastening",
-            "Multiple sizes"
-          ],
-          "sustainable": true
-        },
-        {
-          "title": "Stylish Accessories",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "features": [
-            "Fashion-forward designs",
-            "Comfortable materials",
-            "Easy to clean",
-            "Various styles"
-          ],
-          "sustainable": true
-        }
-      ]
+      "description": "Hand‑crafted pet wear blending comfort, durability, and cultural charm. Made with soft, toxin‑free cottons and prints, each piece is lightweight, breathable, and easy to wear—keeping companions cozy and stylish while supporting artisan livelihoods.",
+      "products": []
+    },
+    {
+      "title": "Pet Beds",
+      "description": "Every pet deserves a soft place to land. Our beds are filled with hypoallergenic stuffing and lined with love. Sustainable, breathable, and built to last—just like the bond with your pet.",
+      "products": []
     },
     {
       "title": "Pet Toys",

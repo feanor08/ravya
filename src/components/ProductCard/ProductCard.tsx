@@ -39,9 +39,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
           ))}
         </ul>
 
-        <button className="btn btn-primary">
-          Learn More
-        </button>
+     
       </div>
     </div>
   )

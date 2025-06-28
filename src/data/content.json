@@ -1,30 +1,30 @@
 {
   "home": {
     "hero": {
-      "title": "Sustainable Manufacturing for Kids & Pets",
-      "subtitle": "🌱 Eco-Friendly Production",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "title": "Welcome to House of Ravya (HOR)",
+      "subtitle": "Rooted in India. Raised for the world.",
+      "description": "Discover a world where tradition meets tenderness.",
       "primaryCta": "View Our Products",
       "secondaryCta": "Get Quote"
     },
     "features": {
       "title": "Why Choose House of Ravya",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Where Craft Meets Conscious Living",
       "items": [
         {
+          "icon": "👐",
+          "title": "Artisan Craftsmanship",
+          "description": "Handmade by Indian artisans using heritage crafts like Ajrakh, block printing, Jamdani, and IKAT. Each product carries centuries‑old stories of tradition, care, and cultural pride, designed for babies and pets alike."
+        },
+        {
           "icon": "🌱",
-          "title": "Sustainable Materials",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "title": "Sustainability",
+          "description": "We choose natural fibers, eco‑friendly dyes, and low‑impact, small‑batch processes. Fair wages, dignified livelihoods, and full supply‑chain traceability ensure ethics at every step."
         },
         {
-          "icon": "🏭",
-          "title": "Advanced Manufacturing",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-        {
-          "icon": "🎯",
-          "title": "Quality Assurance",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "icon": "🌍",
+          "title": "Global Appeal",
+          "description": "Design‑led craftsmanship, export‑ready quality, and low MOQs with 30–45‑day turnaround. Made in India and celebrated worldwide."
         }
       ]
     },
@@ -64,30 +64,30 @@
   },
   "about": {
     "hero": {
-      "title": "About House of Ravya",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      "title": "Tradition. Innovation. Impact.",
+      "description": "House of Ravya was born out of a simple yet powerful idea — to celebrate Indian artisanal traditions while building a responsible, modern supply chain."
     },
     "story": {
       "title": "Our Story",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "content": "House of Ravya was born from a desire to bring India’s timeless textile heritage into the lives of families around the world. What began as a deep appreciation for handcrafted fabrics has grown into a conscious design house creating soulful babywear and pet accessories, woven with care and cultural depth.\n\nAt HOR, we collaborate with master artisans across India—reviving age‑old crafts like Ajrakh, hand block printing, and khadi weaving. Each piece is created slowly and mindfully, using natural materials and traditional processes that honor the earth and those who work with it.\n\nOur journey is rooted in simplicity, authenticity, and emotion. We believe that what touches the skin of a baby or a beloved pet should be as honest and pure as the love they bring into our lives.\n\nFrom the first thread to the final touch, every product carries a story of human hands, heritage, and heart. This is not just fashion—it is a homecoming to values we hold dear: warmth, comfort, and conscious living."
     },
     "values": {
-      "title": "Our Values",
+      "title": "What We Stand For",
       "items": [
         {
-          "icon": "🌍",
-          "title": "Sustainability",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "icon": "🌾",
+          "title": "Regenerative Materials",
+          "description": "Low‑impact fibers like khadi, kala cotton, banana fiber, and pineapple fiber."
         },
         {
-          "icon": "⭐",
-          "title": "Quality",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "icon": "👩‍🧵",
+          "title": "Women‑Led Production",
+          "description": "Rural and tribal units led by women, providing fair wages and skill development."
         },
         {
-          "icon": "🤝",
-          "title": "Partnership",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "icon": "🔍",
+          "title": "Transparency",
+          "description": "Small‑batch manufacturing with clean dyes and biodegradable packaging."
         }
       ]
     },
@@ -188,24 +188,24 @@
   },
   "contact": {
     "hero": {
-      "title": "Contact House of Ravya",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "title": "Partner With Us",
+      "description": "Let’s Build Something Beautiful Together"
     },
     "methods": [
       {
         "icon": "📧",
         "title": "Email",
-        "value": "info@houseofravya.com"
+        "value": "sales@houseofravya.com"
       },
       {
         "icon": "📱",
         "title": "Phone",
-        "value": "+1 (555) 123-4567"
+        "value": "+91-8108963075"
       },
       {
         "icon": "📍",
         "title": "Address",
-        "value": "123 Manufacturing St, Industrial District, City 12345"
+        "value": "Bangalore & Mumbai, India"
       },
       {
         "icon": "🕒",
