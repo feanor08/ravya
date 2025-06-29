@@ -16,6 +16,7 @@
     "deploy:staging": "npm run build:staging && vercel --target staging",
     "deploy:production": "npm run build:production && vercel --prod",
     "serve": "npm run build && npm run preview"
+    
   },
   "dependencies": {
     "@lottiefiles/lottie-player": "^2.0.12",
