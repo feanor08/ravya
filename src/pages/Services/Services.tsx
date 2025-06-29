@@ -1,18 +1,16 @@
 import React from 'react'
 import styles from './Services.module.css'
 import servicesData from '@data/services.json'
+import Hero from '@/components/Hero/Hero'
 
 const Services: React.FC = () => {
   return (
     <div className={styles.services}>
-      <section className={styles.hero}>
-        <div className="container">
-          <h1>{servicesData.services.hero.title}</h1>
-          <p className={styles.heroDescription}>
-            {servicesData.services.hero.description}
-          </p>
-        </div>
-      </section>
+          <Hero
+        title={servicesData.services.hero.title}
+        description={servicesData.services.hero.description}
+        backgroundImage={servicesData.services.hero.imagePath}
+      />
 
       <section className={styles.servicesList}>
         <div className="container">

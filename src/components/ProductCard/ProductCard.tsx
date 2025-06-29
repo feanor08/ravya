@@ -14,17 +14,12 @@ const ProductCard: React.FC<ProductCardProps> = ({
   description,
   image,
   features,
-  sustainable = false
 }) => {
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
         <img src={image} alt={title} className={styles.image} />
-        {sustainable && (
-          <span className={styles.sustainableBadge}>
-            🌱 Sustainable
-          </span>
-        )}
+     
       </div>
 
       <div className={styles.content}>
@@ -34,7 +29,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         <ul className={styles.features}>
           {features.map((feature, index) => (
             <li key={index} className={styles.feature}>
-              ✓ {feature}
+               {feature}
             </li>
           ))}
         </ul>

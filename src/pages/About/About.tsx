@@ -23,7 +23,7 @@ const About: React.FC = () => {
             </div>
             <div className={styles.imageContainer}>
               <img 
-                src="https://picsum.photos/600/400?random=50" 
+                src={aboutData.about.story.image} 
                 alt="Our Story"
                 className={styles.storyImage}
               />
@@ -33,21 +33,31 @@ const About: React.FC = () => {
       </section>
 
       <section className={styles.values}>
-        <div className="container">
-          <h2 className="text-center">{aboutData.about.values.title}</h2>
-          <div className="grid grid-3">
-            {aboutData.about.values.items.map((value, index) => (
-              <div key={index} className="card">
-                <div className={styles.valueIcon}>{value.icon}</div>
-                <h3>{value.title}</h3>
-                <p>{value.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+  <div className="container">
+    <h2 className="text-center">{aboutData.about.values.title}</h2>
 
-      <section className={styles.team}>
+    <div className="grid grid-3">
+      {aboutData.about.values.items.map((value, index) => (
+        <div key={index} className="card">
+          {/* new image up top */}
+          {value.imagePath && (
+            <img
+            src={value.imagePath}
+            alt={value.title}
+            className={styles.valueImg}
+          />
+          )}
+          <span></span>
+
+          <h3>{value.title}</h3>
+          <p>{value.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+      {/* <section className={styles.team}>
         <div className="container">
           <h2 className="text-center">{aboutData.about.team.title}</h2>
           <p className="text-center">{aboutData.about.team.description}</p>
@@ -66,7 +76,7 @@ const About: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

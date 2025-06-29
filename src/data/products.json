@@ -1,7 +1,8 @@
 {
   "hero": {
     "title": "Our Products",
-    "description": "Consciously crafted collections for children and companion animals, ethically made and export\u2011ready."
+    "description": "Consciously crafted collections for children and companion animals, ethically made and export\u2011ready.",
+    "imagePath": "/images/hero-products.webp"
   },
   "categories": [
     {
@@ -9,7 +10,7 @@
       "description": "Soft, breathable garments made from certified organic cotton and heritage Indian textiles.",
       "products": [
         {
-          "title": "Organic Cotton Romper",
+          "title": "",
           "description": "Skin\u2011safe, playful and easy\u2011change one\u2011piece for day\u2011long comfort.",
           "features": [
             "GOTS\u2011certified cotton",
@@ -17,16 +18,16 @@
             "Low\u2011impact dyes"
           ],
           "sustainable": true,
-          "imagePath": "src/assets/kids_romper.jpg"
+          "imagePath": "/images/products-kidswear-hero.webp"
         }
       ]
     },
     {
-      "title": "Pet Wear",
+      "title": "Pet Wear and Products",
       "description": "Lightweight, toxin\u2011free accessories that keep furry friends comfortable and stylish.",
       "products": [
         {
-          "title": "Hand\u2011Blocked Cotton Bandana",
+          "title": "Pet Wear and Products",
           "description": "Breathable bandana featuring traditional Indian block prints.",
           "features": [
             "Soft organic cotton",
@@ -34,24 +35,7 @@
             "Machine\u2011washable"
           ],
           "sustainable": true,
-          "imagePath": "src/assets/pet_bandana.jpg"
-        }
-      ]
-    },
-    {
-      "title": "Pet Beds",
-      "description": "Supportive, hypoallergenic beds woven with natural fibres and filled with recycled stuffing.",
-      "products": [
-        {
-          "title": "Handwoven Pet Bed",
-          "description": "Durable outer weave with removable, washable cushion insert.",
-          "features": [
-            "Natural jute\u2011cotton blend",
-            "Hypoallergenic recycled fill",
-            "Non\u2011slip base"
-          ],
-          "sustainable": true,
-          "imagePath": "src/assets/pet_bed.jpg"
+          "imagePath": "/images/products-petwear-hero.webp"
         }
       ]
     }

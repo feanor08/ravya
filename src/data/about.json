@@ -3,14 +3,12 @@
     "hero": {
       "title": "Where Tenderness Meets Tradition",
       "description": "House of Ravya was born from a desire to bring India\u2019s timeless textile heritage into the lives of families around the world.",
-      "imagePath": ""
+      "imagePath": "/images/about-story.webp"
     },
     "story": {
       "title": "Our Story",
-      "content": [
-        "At HOR, we collaborate with master artisans across India\u2014reviving age\u2011old crafts like Ajrakh, hand block printing, and khadi weaving. Each piece is created slowly and mindfully, using natural materials and traditional processes that honor the earth and those who work with it.\n\nOur journey is rooted in simplicity, authenticity, and emotion. We believe that what touches the skin of a baby or a beloved pet should be as honest and pure as the love they bring into our lives.\n\nFrom the first thread to the final touch, every product carries a story of human hands, heritage, and heart. This is not just fashion\u2014it is a homecoming to values we hold dear: warmth, comfort, and conscious living."
-      ],
-      "image": ""
+      "content": "House of Ravya was born from a desire to bring India\u2019s timeless textile heritage into the lives of families around the world. What began as a deep appreciation for handcrafted fabrics has grown into a conscious design house creating soulful babywear and pet accessories, woven with care and cultural depth.\n\nAt HOR, we collaborate with master artisans across India\u2014reviving age-old crafts like Ajrakh, hand block printing, and khadi weaving. Each piece is created slowly and mindfully, using natural materials and traditional processes that honor the earth and those who work with it.\n\nOur journey is rooted in simplicity, authenticity, and emotion. We believe that what touches the skin of a baby or a beloved pet should be as honest and pure as the love they bring into our lives.\n\nFrom the first thread to the final touch, every product carries a story of human hands, heritage, and heart. This is not just fashion\u2014it is a homecoming to values we hold dear: warmth, comfort, and conscious living.\n\nWelcome to House of Ravya.\nRooted in India. Raised for the world.",
+      "image": "/images/about-story.webp"
     },
     "values": {
       "title": "Why Choose House of Ravya",
@@ -18,47 +16,26 @@
         {
           "icon": "\ud83e\udea1",
           "title": "Artisan Craftsmanship",
-          "description": "Handmade by Indian artisans using heritage techniques like Ajrakh, block printing, Jamdani, and IKAT. Every textile carries a story of tradition, care, and cultural pride.",
-          "imagePath": ""
+          "description": "Handmade by Indian Artisans. We partner with master artisans across India to revive and celebrate heritage crafts like Ajrakh, Jaipuri block printing, Jamdani, IKAT and other timeless Indian textiles.\nTextiles with a Story \u2014 Each product is rooted in centuries-old techniques and tells a story of tradition, care, and cultural pride.\nDesigned for Babies & Pets \u2014 A rare blend of form and function\u2014our creations bring softness, beauty, and heritage to everyday essentials for children and companion animals.",
+          "imagePath": "/images/icon-artisan.png"
         },
         {
           "icon": "\ud83c\udf3f",
           "title": "Sustainability",
-          "description": "Natural fibres, eco\u2011friendly dyes, and intentional low\u2011impact processes that are safe for sensitive skin and the planet. Ethical, transparent, and waste\u2011conscious production.",
-          "imagePath": ""
+          "description": "Natural Fibers & Dyes \u2014 We use breathable cottons, eco-friendly dyes, and slow processes that are safe for sensitive skin and the planet.\nLow-Impact Production \u2014 Every step is intentional\u2014from small-batch dyeing to waste-conscious cutting\u2014ensuring we leave a lighter footprint.\nEthical & Transparent \u2014 We ensure fair wages, dignified livelihoods, and full supply chain traceability\u2014empowering the makers behind each piece.",
+          "imagePath": "/images/icon-sustainability.png"
         },
         {
           "icon": "\ud83c\udf0d",
           "title": "Global Appeal",
-          "description": "Design\u2011led craftsmanship and export\u2011ready quality for discerning international buyers. Bringing the soul of Indian artistry into homes worldwide.",
-          "imagePath": ""
+          "description": "Design Led Craftmanship, Export-Ready Quality \u2014 We offer small-batch exclusivity with reliable, high-quality craftsmanship that appeals to discerning international buyers and concept stores.\nMade in India, Celebrated Worldwide \u2014 Each product brings the soul of Indian craftsmanship into homes across the world, reflecting a commitment to quality, heritage, and thoughtful design.\n",
+          "imagePath": "/images/icon-global-appeal.png"
         },
         {
           "icon": "\u2705",
-          "title": "Low MOQs & Certifications",
-          "description": "Low MOQs, dedicated sampling team, 30\u201345 day turnaround, with recognised sustainability certifications.",
-          "imagePath": ""
-        }
-      ]
-    },
-    "team": {
-      "title": "Our Team",
-      "description": "A collective of designers, technologists, and community leaders committed to conscious craft and social impact.",
-      "members": [
-        {
-          "name": "Ravya Patel",
-          "role": "Founder & Creative Director",
-          "bio": "Fuses traditional Indian crafts with modern aesthetics to bring every collection to life."
-        },
-        {
-          "name": "Arjun Menon",
-          "role": "Head of Production",
-          "bio": "Leads ethical manufacturing, ensuring quality and fair practices across partner facilities."
-        },
-        {
-          "name": "Sahana Rao",
-          "role": "Sustainability Lead",
-          "bio": "Drives circular material strategy and impact reporting for customers and stakeholders."
+          "title": "Low MoQ & Certification",
+          "description": "Low MOQs | Dedicated Sampling Team | 30–45 Days Turnaround.",
+          "imagePath": "/images/icon-low-moq.png"
         }
       ]
     }

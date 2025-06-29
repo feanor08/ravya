@@ -30,6 +30,7 @@ const Home: React.FC = () => {
           text: homeData.home.hero.secondaryCta,
           action: handleSecondaryCta
         }}
+        backgroundImage={homeData.home.hero.imagePath}
       />
 
       <section className={styles.features}>

@@ -6,34 +6,16 @@
       "description": "Discover a world where tradition meets tenderness.",
       "primaryCta": "Discover Our World",
       "secondaryCta": "Start a Project",
-      "imagePath": ""
+      "imagePath": "/images/hero-home.webp"
     },
     "features": {
-      "title": "What We Stand For",
-      "description": "We\u2019re not just manufacturers \u2014 we\u2019re partners in building a better, kinder future.",
+      "title": "Vision Statement",
+      "description": "To become a globally recognized and trusted partner in sustainable lifestyle products, empowering rural artisans and tribal women while delivering consciously crafted kidswear, pet essentials, and accessories that bring joy, safety, and meaning to everyday life.",
       "items": [
         {
-          "icon": "\ud83c\udf31",
-          "title": "Regenerative Materials",
-          "description": "Khadi, kala cotton, banana fibre, pineapple fibre and other low\u2011impact textiles.",
-          "imagePath": ""
-        },
-        {
-          "icon": "\ud83d\udc69\u200d\ud83c\udf3e",
-          "title": "Women\u2011Led Production",
-          "description": "Rural and tribal units that provide fair wages and dignified livelihoods.",
-          "imagePath": ""
-        },
-        {
-          "icon": "\ud83e\uddf5",
-          "title": "Small\u2011Batch Transparency",
-          "description": "Clear, traceable manufacturing and fair\u2011wage craftsmanship at every step.",
-          "imagePath": ""
-        },
-        {
-          "icon": "\ud83c\udf3f",
-          "title": "Clean Dyes & Packaging",
-          "description": "Plant\u2011based dyes and biodegradable, plastic\u2011free packaging.",
+          "icon": "",
+          "title": "Mission Statement",
+          "description": "Ethically made items that care for the planet and its people. \n Kids and pet ranges meeting international safety standards. \n Reliable, innovation\u2011driven manufacturing for global partners. \n Creativity, sustainability and social impact at our core. ",
           "imagePath": ""
         }
       ]
@@ -52,11 +34,11 @@
             "OEKO\u2011TEX / GOTS compliance"
           ],
           "sustainable": true,
-          "image": "src/assets/frontpage_kids_wear_collection.jpeg",
-          "imagePath": "src/assets/frontpage_kids_wear_collection.jpeg"
+          "image": "/images/product-kidswear.webp",
+          "imagePath": "/images/product-kidswear.webp"
         },
         {
-          "title": "Pet Beds, Apparel & Toys",
+          "title": "Pet Wear and Products",
           "description": "Comfort\u2011first engineering for furry friends, from rainy\u2011day jackets to snuggly chew\u2011proof beds.",
           "features": [
             "Pet\u2011safe, bite\u2011resistant textiles",
@@ -65,8 +47,8 @@
             "Low\u2011impact stuffing options"
           ],
           "sustainable": true,
-          "image": "src/assets/frontpage_petwear.JPG",
-          "imagePath": "src/assets/frontpage_petwear.JPG"
+          "image": "/images/product-petwear.webp",
+          "imagePath": "/images/product-petwear.webp"
         }
       ]
     },
@@ -74,6 +56,19 @@
       "title": "Ready to Build Something Beautiful?",
       "description": "Let\u2019s co\u2011create slow, thoughtful products that carry meaning and value.",
       "buttonText": "Partner With Us"
+    },
+    "vision": {
+      "title": "Vision Statement",
+      "description": "To become a globally recognized and trusted partner in sustainable lifestyle products, empowering rural artisans and tribal women while delivering consciously crafted kidswear, pet essentials, and accessories that bring joy, safety, and meaning to everyday life."
+    },
+    "mission": {
+      "title": "Mission Statement",
+      "items": [
+        "Create ethically made, eco-conscious products that reflect care for the planet and its people.",
+        "Offer export-quality collections for children and pets that meet international safety standards, blending heritage techniques with modern design.",
+        "Build a transparent, reliable, and innovation-driven supply chain that supports our buyers and partners across the globe.",
+        "Continuously evolve through creativity, sustainability, and social impact."
+      ]
     }
   }
 }

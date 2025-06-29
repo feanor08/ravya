@@ -2,18 +2,16 @@ import React from 'react'
 import ProductCard from '@components/ProductCard/ProductCard'
 import styles from './Products.module.css'
 import productsData from '@data/products.json'
+import Hero from '@/components/Hero/Hero'
 
 const Products: React.FC = () => {
   return (
     <div className={styles.products}>
-      <section className={styles.hero}>
-        <div className="container">
-          <h1>{productsData.hero.title}</h1>
-          <p className={styles.heroDescription}>
-            {productsData.hero.description}
-          </p>
-        </div>
-      </section>
+      <Hero
+        title={productsData.hero.title}
+        description={productsData.hero.description}
+        backgroundImage={productsData.hero.imagePath}
+      />
 
       {productsData.categories.map((category, categoryIndex) => (
         <section key={categoryIndex} className={styles.category}>
@@ -31,7 +29,8 @@ const Products: React.FC = () => {
                   description={product.description}
                   image={product.imagePath}
                   features={product.features}
-                  sustainable={product.sustainable} />
+                  sustainable={product.sustainable}
+                 />
               ))}
             </div>
           </div>

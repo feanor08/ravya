@@ -1,43 +1,24 @@
 {
   "services": {
     "hero": {
-      "title": "Products",
-      "description": "Consciously crafted collections for children and companion animals.",
-      "imagePath": ""
+      "title": "Manufacturing Services",
+      "description": "House of ravya is an ethical manufacturing and export house rooted in sustainability,craftsmanship and community empowerment. We create conscious kidswear, pet and lifestyle products that bring joy ,safety, and meaning to everyday life.",
+      "imagePath": "/images/products-petbeds-hero.webp"
     },
     "list": [
       {
         "icon": "\ud83d\udc76",
-        "title": "Kidswear",
-        "description": "Wrap your little one in love, comfort, and culture. Our kidswear collection is made from breathable, naturally dyed cottons using traditional Indian textiles like Ajrakh, block prints, and hand\u2011woven fabrics. From rompers to dresses, every piece is gentle on delicate skin, stitched with care, and made to move freely through play and sleep.",
-        "features": [
-          "Breathable natural cottons",
-          "Non\u2011toxic dyes",
-          "Designed for play & sleep"
-        ],
-        "imagePath": ""
+        "title": "Kids Wear & Accessories",
+        "description": "",
+        "features": [],
+        "imagePath": "/images/products-kidswear-hero.webp"
       },
       {
         "icon": "\ud83d\udc15",
-        "title": "Pet Wear",
-        "description": "Our handcrafted pet wear blends comfort, durability, and cultural charm. Made with soft, toxin\u2011free Indian cottons and prints, each piece is lightweight, breathable, and easy to wear. Whether it\u2019s a bandana, a collar, or a casual shirt, your pet stays cozy and stylish\u2014while you support artisan livelihoods with every purchase.",
-        "features": [
-          "Lightweight & breathable",
-          "Durable stitching",
-          "Easy on/off designs"
-        ],
-        "imagePath": ""
-      },
-      {
-        "icon": "\ud83d\udecf\ufe0f",
-        "title": "Pet Beds",
-        "description": "Every pet deserves a soft place to land. Our beds are filled with hypoallergenic stuffing and designed to support restful sleep. Sustainable, breathable, and built to last\u2014just like the bond with your pet.",
-        "features": [
-          "Hypoallergenic fill",
-          "Machine\u2011washable covers",
-          "Multiple sizes & shapes"
-        ],
-        "imagePath": ""
+        "title": "Pet Wear & Products",
+        "description": "",
+        "features": [],
+        "imagePath": "/images/products-petwear-hero.webp"
       }
     ],
     "process": {
@@ -45,21 +26,22 @@
       "steps": [
         {
           "title": "Artisan Collaboration",
-          "description": "Partner with master craftspeople across India for authentic textiles."
+          "description": ""
         },
         {
           "title": "Sustainable Sourcing",
-          "description": "Natural fibres and safe dyes with full supply chain traceability."
+          "description": ""
         },
         {
           "title": "Ethical Manufacturing",
-          "description": "Small\u2011batch, transparent production with fair wages."
+          "description": ""
         },
         {
           "title": "Global Delivery",
-          "description": "Export\u2011ready quality control and reliable worldwide logistics."
+          "description": ""
         }
       ]
-    }
+    },
+    "manufacturingDescription": "House of Ravya is an ethical manufacturing and export house rooted in sustainability, craftsmanship and community empowerment. We create conscious kidswear, pet and lifestyle products that bring joy, safety, and meaning to everyday life."
   }
 }

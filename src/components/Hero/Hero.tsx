@@ -3,7 +3,7 @@ import styles from './Hero.module.css'
 
 interface HeroProps {
   title: string
-  subtitle: string
+  subtitle?: string
   description: string
   primaryCta?: {
     text: string

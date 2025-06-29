@@ -9,10 +9,10 @@
     { "label": "Products", "path": "/products" },
     { "label": "Contact", "path": "/contact" }
   ],
-  "products": ["Kids Wear", "Kids Toys", "Pet Wear", "Pet Toys"],
+  "products": ["Kids Wear", "Pet Wear", "Pet Beds"],
   "contact": {
-    "email": "info@houseofravya.com",
-    "phone": "+1 (555) 123-4567",
-    "address": "123 Manufacturing St, Industrial District, City 12345"
+    "email": "sales@houseofravya.com",
+    "phone": "+91 8108963075",
+    "address": "#473/D, 15th cross, 8th Main, Ideal Homes Township, Rajarajeshwari Nagar, 560098"
   }
 }

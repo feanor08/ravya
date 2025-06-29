@@ -3,7 +3,7 @@
     "hero": {
       "title": "Partner With Us",
       "description": "Let\u2019s build something beautiful together. We collaborate with like\u2011minded brands, retailers, and impact\u2011led businesses to create collections that matter.",
-      "imagePath": ""
+      "imagePath": "/images/hero-contact.webp"
     },
     "methods": [
       {
@@ -20,11 +20,6 @@
         "icon": "\ud83d\udccd",
         "title": "Locations",
         "value": "Bangalore & Mumbai, India"
-      },
-      {
-        "icon": "\ud83c\udf10",
-        "title": "Website",
-        "value": "www.houseofravya.com"
       },
       {
         "icon": "\ud83d\udcc4",
