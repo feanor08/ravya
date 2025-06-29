@@ -25,14 +25,22 @@ const Hero: React.FC<HeroProps> = ({
   backgroundImage
 }) => {
   return (
-    <section 
-      className={styles.hero}
-      style={backgroundImage ? { backgroundImage: `url(${backgroundImage})` } : {}}
-    >
+    <section className={styles.hero}>
+      {backgroundImage && (
+        <div className={styles.backgroundWrapper}>
+          <img
+            src={backgroundImage}
+            alt="Background"
+            className={styles.backgroundImage}
+          />
+          <div className={styles.gradientTint} />
+        </div>
+      )}
+
       <div className={styles.heroOverlay}>
         <div className={styles.container}>
           <div className={styles.heroContent}>
-            <span className={styles.subtitle}>{subtitle}</span>
+            {subtitle && <span className={styles.subtitle}>{subtitle}</span>}
             <h1 className={styles.title}>{title}</h1>
             <p className={styles.description}>{description}</p>
 
