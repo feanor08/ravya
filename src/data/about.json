@@ -3,7 +3,7 @@
     "hero": {
       "title": "Where Tenderness Meets Tradition",
       "description": "House of Ravya was born from a desire to bring India\u2019s timeless textile heritage into the lives of families around the world.",
-      "imagePath": "/images/about-story.webp"
+      "imagePath": "/images/about-us.png"
     },
     "story": {
       "title": "Our Story",
@@ -34,7 +34,7 @@
         {
           "icon": "\u2705",
           "title": "Low MoQ & Certification",
-          "description": "Low MOQs | Dedicated Sampling Team | 30–45 Days Turnaround.",
+          "description": "We offer low minimum order quantities, backed by a proactive sampling squad that refines prototypes rapidly, ensuring fit, finish, and compliance. Once designs are signed off, our streamlined, artisan-powered production moves seamlessly into small-batch manufacturing, delivering export-ready kidswear and pet collections worldwide within a reliable 30-to-45-day window turnaround.",
           "imagePath": "/images/icon-low-moq.png"
         }
       ]

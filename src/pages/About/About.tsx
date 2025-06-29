@@ -1,18 +1,16 @@
 import React from 'react'
 import styles from './About.module.css'
 import aboutData from '@data/about.json'
+import Hero from '@/components/Hero/Hero'
 
 const About: React.FC = () => {
   return (
     <div className={styles.about}>
-      <section className={styles.hero}>
-        <div className="container">
-          <h1>{aboutData.about.hero.title}</h1>
-          <p className={styles.heroDescription}>
-            {aboutData.about.hero.description}
-          </p>
-        </div>
-      </section>
+  <Hero
+        title={aboutData.about.hero.title}
+        description={aboutData.about.hero.description}
+        backgroundImage={aboutData.about.hero.imagePath}
+      />
 
       <section className={styles.story}>
         <div className="container">
