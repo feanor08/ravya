@@ -5,6 +5,7 @@ import ProductCard from '@components/ProductCard/ProductCard'
 import styles from './Home.module.css'
 import homeData from '@data/home.json'
 
+
 const Home: React.FC = () => {
   const navigate = useNavigate()
 
