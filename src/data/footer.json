@@ -3,16 +3,35 @@
     "description": "Sustainable manufacturing solutions for kids wear, kids toys, pet wear, and pet toys."
   },
   "quickLinks": [
-    { "label": "Home", "path": "/" },
-    { "label": "About Us", "path": "/about" },
-    { "label": "Services", "path": "/services" },
-    { "label": "Products", "path": "/products" },
-    { "label": "Contact", "path": "/contact" }
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "About Us",
+      "path": "/about"
+    },
+    {
+      "label": "Services",
+      "path": "/services"
+    },
+    {
+      "label": "Products",
+      "path": "/products"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
   ],
-  "products": ["Kids Wear", "Pet Wear", "Pet Beds"],
+  "products": [
+    "Kids Wear",
+    "Pet Wear",
+    "Pet Beds"
+  ],
   "contact": {
     "email": "sales@houseofravya.com",
-    "phone": "+91 8108963075",
+    "phone": "+91 8310452882",
     "address": "#473/D, 15th cross, 8th Main, Ideal Homes Township, Rajarajeshwari Nagar, Bangalore, 560098"
   }
 }
