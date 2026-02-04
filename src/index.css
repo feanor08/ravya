@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+/* Outfit variable font */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('/fonts/outfit-latin-wght-normal.woff2') format('woff2-variations');
+}
+
+:root {
+  font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  /* Earthy, Premium & Sustainable Palette */
+  /* Bases */
+  --color-bg: #fafafa;
+  /* Very warm off-white */
+  --color-bg-alt: #F5EFEB;
+  /* Slightly darker warm beige */
+  --color-bg-card: #FFFFFF;
+
+  /* Text */
+  --color-text-primary: #2C2420;
+  /* Deep earthy charcoal */
+  --color-text-secondary: #5D5550;
+  /* Softer earth tone */
+  --color-text-muted: #948C87;
+
+  /* Accents */
+  --color-accent: #7C6A5A;
+  /* Warm Taupe/Brown */
+  --color-accent-hover: #5D4D40;
+  --color-accent-light: #EBE5DF;
+  /* Light Taupe for backgrounds */
+  --color-success: #5F7161;
+  /* Muted Green */
+
+  /* UI */
+  --color-border: #E6E0DB;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Outfit', sans-serif;
+  /* Secondary Font */
+  color: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+button {
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  border: none;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  color: var(--color-text-primary);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero Animations */
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: var(--color-accent)
+  }
+}
+
+.animate-slide-up-fade {
+  animation: slideUpFade 0.8s ease-out forwards;
+}
