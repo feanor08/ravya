@@ -12,7 +12,7 @@ export function ProductCategories() {
   return (
     <Section background="warm" className="text-center">
       <Container>
-        <Heading level={2} className="mb-4">Our Collections</Heading>
+        <Heading level={2} className="mb-4 text-4xl">Our Collections</Heading>
         <Text className="mb-12 max-w-2xl mx-auto">
           Thoughtfully designed essentials for your loved ones, crafted with care for the planet.
         </Text>

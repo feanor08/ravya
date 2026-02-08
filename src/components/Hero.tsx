@@ -10,18 +10,15 @@ import carousel3 from '../assets/CarouselImage3.webp';
 
 export function Hero() {
   return (
-    <section className="relative w-full min-h-[85vh] flex items-center bg-[var(--color-bg)] overflow-hidden">
-      {/* Background Graphic/Shape - Placeholder for now */}
-      {/* <div className="absolute top-0 right-0 w-1/2 h-full bg-[var(--color-bg-alt)] rounded-bl-[100px] z-0 opacity-50 hidden md:block" /> */}
-
-      <Container className="relative z-10 grid md:grid-cols-2 gap-12 items-center">
+    <section className="relative w-full min-h-[85vh] flex items-center bg-[var(--color-bg)] overflow-hidden py-8 md:py-20">
+      <Container className="relative z-10 grid md:grid-cols-2 gap-12 items-center px-8 md:px-12">
         <div className="text-left">
           <span className="inline-block py-1 px-3 rounded-full bg-[var(--color-accent-light)] text-[var(--color-accent-dark)] text-sm font-semibold tracking-wide mb-6 animate-slide-up-fade">
             EST. 2024
           </span>
           <Heading
             level={1}
-            className="text-5xl md:text-6xl lg:text-7xl mb-6 opacity-0 animate-slide-up-fade"
+            className="text-4xl md:text-6xl lg:text-7xl mb-6 opacity-0 animate-slide-up-fade"
             style={{ animationDelay: '0.2s' }}
           >
             Conscious Apparel, <br />

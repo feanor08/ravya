@@ -10,7 +10,7 @@ export const About = () => {
         <>
             <Section background="warm">
                 <Container>
-                    <Heading level={1} className="text-center mb-12">About House of Ravya</Heading>
+                    <Heading level={1} className="text-center mb-12 text-4xl">About House of Ravya</Heading>
                     <div className="grid md:grid-cols-2 gap-12 items-center">
                         <div>
                             <Heading level={3}>Our Story</Heading>
@@ -29,7 +29,7 @@ export const About = () => {
 
             <Section background="white">
                 <Container>
-                    <Heading level={2} className="text-center mb-12">Why choose House of Ravya?</Heading>
+                    <Heading level={2} className="text-center mb-12 text-4xl">Why choose House of Ravya?</Heading>
                     <div className="grid md:grid-cols-2 gap-8">
                         {/* Card 1: Artisan Craftsmanship */}
                         <Card variant="flat" className="p-8">

@@ -31,7 +31,7 @@ export function Features() {
   return (
     <Section background="white">
       <Container>
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 text-4xl">
           <Heading level={2}>Why House of Ravya?</Heading>
           <Text className="max-w-2xl mx-auto text-[var(--color-text-secondary)]">
             We are committed to quality, sustainability, and ethical manufacturing practices.

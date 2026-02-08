@@ -13,7 +13,7 @@ export function ArtisanSection() {
   return (
     <Section background="default" className="relative overflow-hidden">
       <Container className="text-center">
-        <Heading level={2} className="mb-6">Artisan Craftsmanship & Sustainable Fabric Sourcing</Heading>
+        <Heading level={2} className="mb-6 text-4xl">Artisan Craftsmanship & Sustainable Fabric Sourcing</Heading>
         <Text variant="lead" className="mb-12 max-w-3xl mx-auto">
           We partner with skilled craftspeople to deliver premium kidswear and pet products made from natural, eco-friendly fabrics.
           Every piece tells a story of tradition, quality, and respect for our planet.

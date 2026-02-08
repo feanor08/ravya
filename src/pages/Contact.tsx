@@ -9,7 +9,7 @@ export const Contact = () => {
         <>
             <Section background="white" className="pb-0">
                 <Container className="text-center">
-                    <Heading level={1}>Contact Us</Heading>
+                    <Heading level={1} className="text-4xl">Contact Us</Heading>
                     <Text variant="lead">We'd love to hear from you.</Text>
 
                     <div className="grid md:grid-cols-3 gap-8 mt-12 mb-12">

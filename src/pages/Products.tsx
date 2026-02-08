@@ -14,7 +14,7 @@ export const Products = () => {
         <Section>
             <Container>
                 <div className="text-center mb-16">
-                    <Heading level={1}>Product Gallery</Heading>
+                    <Heading level={1} className="text-4xl">Product Gallery</Heading>
                     <Text variant="lead">A glimpse into our sustainable collections for kids and pets.</Text>
                 </div>
 

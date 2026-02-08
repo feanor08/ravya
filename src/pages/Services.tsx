@@ -20,7 +20,7 @@ export const Services = () => {
             <Section>
                 <Container>
                     <div className="text-center mb-16">
-                        <Heading level={1}>Our Services</Heading>
+                        <Heading level={1} className="text-4xl">Our Services</Heading>
                         <Text variant="lead">Comprehensive solutions for kidswear and pet product brands.</Text>
                     </div>
 
@@ -42,7 +42,7 @@ export const Services = () => {
 
             <Section background="warm">
                 <Container>
-                    <Heading level={2} className="text-center mb-12">Our Process</Heading>
+                    <Heading level={2} className="text-center mb-12 text-4xl">Our Process</Heading>
                     <div ref={processRef} className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
                         {/* Connection Line (Hidden on mobile) */}
                         <div

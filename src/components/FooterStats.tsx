@@ -8,11 +8,11 @@ export function FooterStats() {
   ];
 
   return (
-    <div className="bg-[var(--color-accent)] text-white py-12">
+    <div className="bg-[var(--color-accent)] text-white py-12 md:py-20">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-white/20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-white/20">
           {stats.map((s) => (
-            <div key={s.label} className="pt-8 md:pt-0 md:px-4">
+            <div key={s.label} className="py-10 md:py-0 md:px-4 first:pt-0 last:pb-0 md:first:pt-0 md:last:pb-0">
               <div className="text-4xl md:text-5xl font-bold mb-2">{s.value}</div>
               <div className="text-white/80 uppercase tracking-wider text-sm">{s.label}</div>
             </div>
