@@ -1,13 +1,10 @@
 import { useState, useRef, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import { Menu, X, Phone } from 'lucide-react';
 import { Container } from './ui/Container';
-import { Button } from './ui/Button';
 
 import logo from '../assets/HeaderLogo.png';
 
 export function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navItems = [
     { label: 'Home', path: '/' },
     { label: 'About', path: '/about' },
@@ -46,7 +43,7 @@ export function Header() {
   }, [location.pathname]);
 
   const content = (
-    <div className="flex items-center justify-between h-20">
+    <div className="flex items-center justify-center md:justify-between h-20">
       {/* Logo */}
       <Link to="/" className="flex items-center gap-2 group">
         <img src={logo} alt="House of Ravya" className="h-10 w-auto object-contain" />
@@ -77,23 +74,6 @@ export function Header() {
           }}
         />
       </nav>
-
-      {/* Desktop Actions */}
-      <div className="hidden md:flex items-center gap-6">
-        <a href="tel:+91 83104 52882" className="flex items-center gap-2 text-sm font-medium text-[var(--color-text-secondary)] hover:text-[var(--color-accent)]">
-          <Phone size={18} />
-          <span>+91 83104 52882</span>
-        </a>
-        <Button size="sm" variant="primary">Catalogue</Button>
-      </div>
-
-      {/* Mobile Menu Toggle */}
-      <button
-        className="md:hidden p-2 text-[var(--color-text-primary)]"
-        onClick={() => setIsMenuOpen(!isMenuOpen)}
-      >
-        {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-      </button>
     </div>
   );
 
@@ -102,36 +82,6 @@ export function Header() {
       <Container>
         {content}
       </Container>
-
-      {/* Mobile Nav */}
-      {isMenuOpen && (
-        <div className="md:hidden absolute top-20 left-0 w-full bg-[var(--color-bg)] border-b border-[var(--color-border)] py-6 shadow-lg">
-          <Container>
-            <nav className="flex flex-col gap-4">
-              {navItems.map((item) => (
-                <NavLink
-                  key={item.label}
-                  to={item.path}
-                  className={({ isActive }) =>
-                    `text-lg font-medium py-2 border-b border-[var(--color-border)] ${isActive ? 'text-[var(--color-accent)]' : 'text-[var(--color-text-primary)]'
-                    }`
-                  }
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.label}
-                </NavLink>
-              ))}
-              <div className="pt-4 flex flex-col gap-4">
-                <a href="tel:+919876543210" className="flex items-center gap-2 font-medium">
-                  <Phone size={18} />
-                  <span>+91 9876543210</span>
-                </a>
-                <Button fullWidth>Request Catalogue</Button>
-              </div>
-            </nav>
-          </Container>
-        </div>
-      )}
     </header>
   );
 }
