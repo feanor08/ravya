@@ -1,7 +1,7 @@
 import { Container } from '../components/ui/Container';
 import { Section } from '../components/ui/Section';
 import { Heading, Text } from '../components/ui/Typography';
-import { FileText } from 'lucide-react';
+import { FileText } from '@phosphor-icons/react';
 
 import img1 from '../assets/ProductGalleryImage1.webp';
 import img2 from '../assets/ProductGalleryImage2.webp';
@@ -69,7 +69,7 @@ export const Products = () => {
                     {/* Catalogue Card */}
                     <div className="relative group overflow-hidden rounded-2xl bg-[var(--color-accent)] flex flex-col items-center justify-center text-white cursor-pointer hover:brightness-95 transition-all p-6 text-center">
                         <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                            <FileText className="w-8 h-8" />
+                            <FileText className="w-8 h-8" weight="duotone" />
                         </div>
                         <Heading level={3} className="text-xl text-white mb-2">Full Catalogue</Heading>
                         <Text className="text-white/80 text-sm">Download our complete wholesale price list and collection guide.</Text>

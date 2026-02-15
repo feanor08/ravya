@@ -2,27 +2,27 @@ import { Container } from './ui/Container';
 import { Section } from './ui/Section';
 import { Card } from './ui/Card';
 import { Heading, Text } from './ui/Typography';
-import { Anchor, Globe, Scissors, Leaf } from 'lucide-react';
+import { Anchor, Globe, Scissors, Plant } from '@phosphor-icons/react';
 
 export function Features() {
   const features = [
     {
-      icon: <Anchor className="w-8 h-8 text-[var(--color-accent)]" />,
+      icon: <Anchor className="w-8 h-8 text-[var(--color-accent)]" weight="duotone" />,
       title: 'Low MOQ',
       subtitle: 'Flexible ordering for growing businesses.',
     },
     {
-      icon: <Scissors className="w-8 h-8 text-[var(--color-accent)]" />,
+      icon: <Scissors className="w-8 h-8 text-[var(--color-accent)]" weight="duotone" />,
       title: 'Private Label',
       subtitle: 'Custom manufacturing tailored to your brand.',
     },
     {
-      icon: <Globe className="w-8 h-8 text-[var(--color-accent)]" />,
+      icon: <Globe className="w-8 h-8 text-[var(--color-accent)]" weight="duotone" />,
       title: 'Global Export',
       subtitle: 'Seamless shipping to over 30 countries.',
     },
     {
-      icon: <Leaf className="w-8 h-8 text-[var(--color-accent)]" />,
+      icon: <Plant className="w-8 h-8 text-[var(--color-accent)]" weight="duotone" />,
       title: 'Eco-Friendly',
       subtitle: '100% natural, sustainable materials/fabrics.',
     },

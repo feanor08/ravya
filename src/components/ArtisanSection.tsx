@@ -1,13 +1,13 @@
 import { Container } from './ui/Container';
 import { Section } from './ui/Section';
 import { Heading, Text } from './ui/Typography';
-import { Hammer, Leaf, Scale } from 'lucide-react';
+import { Hammer, Plant, Scales } from '@phosphor-icons/react';
 
 export function ArtisanSection() {
   const badges = [
-    { icon: <Hammer className="w-8 h-8 md:w-10 md:h-10 text-[var(--color-accent)]" />, label: 'Crafted by Artisans' },
-    { icon: <Leaf className="w-8 h-8 md:w-10 md:h-10 text-[var(--color-accent)]" />, label: 'Eco-Friendly Materials' },
-    { icon: <Scale className="w-8 h-8 md:w-10 md:h-10 text-[var(--color-accent)]" />, label: 'Ethically Made' },
+    { icon: <Hammer className="w-8 h-8 md:w-10 md:h-10 text-[var(--color-accent)]" weight="duotone" />, label: 'Crafted by Artisans' },
+    { icon: <Plant className="w-8 h-8 md:w-10 md:h-10 text-[var(--color-accent)]" weight="duotone" />, label: 'Eco-Friendly Materials' },
+    { icon: <Scales className="w-8 h-8 md:w-10 md:h-10 text-[var(--color-accent)]" weight="duotone" />, label: 'Ethically Made' },
   ];
 
   return (

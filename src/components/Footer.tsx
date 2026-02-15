@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { EnvelopeIcon, MapPinIcon, PhoneIcon } from '@phosphor-icons/react';
 import { Link } from 'react-router-dom';
 import { Container } from './ui/Container';
 import { Heading } from './ui/Typography';
@@ -11,8 +11,11 @@ export const Footer = () => {
             <Container>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 text-sm">
                     {/* Column 1: Company Info */}
-                    <div className="space-y-4 lg:col-span-4 flex flex-col items-center">
-                        <img src={footerLogo} alt="House of Ravya" className="w-[80%] object-contain mb-4" />
+                    <div className="space-y-4 lg:col-span-4 flex flex-col items-center text-center">
+                        <img src={footerLogo} alt="House of Ravya" className="w-[80%] object-contain mb-2" />
+                        <p className="text-[var(--color-accent-light)] italic text-sm">
+                            "Reviving Artisanal Value Yielding Authenticity"
+                        </p>
                     </div>
 
                     {/* Column 2: Quick Links */}
@@ -42,15 +45,15 @@ export const Footer = () => {
                         <Heading level={4} className="text-lg text-white mb-6 font-semibold">Contact Us</Heading>
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3">
-                                <MapPin className="w-5 h-5 text-[var(--color-accent)] flex-shrink-0" />
+                                <MapPinIcon className="w-5 h-5 flex-shrink-0" weight="duotone" />
                                 <span className="text-gray-300">#473/D, 15th cross, 8th Main, Ideal Homes Township, Rajarajeshwari Nagar, Bangalore, 560098</span>
                             </li>
                             <li className="flex items-center gap-3">
-                                <Phone className="w-5 h-5 text-[var(--color-accent)] flex-shrink-0" />
+                                <PhoneIcon className="w-5 h-5 flex-shrink-0" weight="duotone" />
                                 <span className="text-gray-300">+91 83104 52882</span>
                             </li>
                             <li className="flex items-center gap-3">
-                                <Mail className="w-5 h-5 text-[var(--color-accent)] flex-shrink-0" />
+                                <EnvelopeIcon className="w-5 h-5 flex-shrink-0" weight="duotone" />
                                 <span className="text-gray-300">sales@houseofravya.com</span>
                             </li>
                         </ul>

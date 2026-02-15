@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import { Home, Info, Sparkles, ShoppingBag, Mail } from 'lucide-react';
+import { House, Info, Sparkle, ShoppingBag, Envelope } from '@phosphor-icons/react';
 
 export function MobileBottomNav() {
     const location = useLocation();
@@ -8,11 +8,11 @@ export function MobileBottomNav() {
     const itemsRef = useRef<(HTMLAnchorElement | null)[]>([]);
 
     const navItems = [
-        { path: '/', icon: <Home size={22} /> },
-        { path: '/about', icon: <Info size={22} /> },
-        { path: '/services', icon: <Sparkles size={22} /> },
-        { path: '/products', icon: <ShoppingBag size={22} /> },
-        { path: '/contact', icon: <Mail size={22} /> },
+        { path: '/', icon: <House size={22} weight="duotone" /> },
+        { path: '/about', icon: <Info size={22} weight="duotone" /> },
+        { path: '/services', icon: <Sparkle size={22} weight="duotone" /> },
+        { path: '/products', icon: <ShoppingBag size={22} weight="duotone" /> },
+        { path: '/contact', icon: <Envelope size={22} weight="duotone" /> },
     ];
 
     useEffect(() => {
