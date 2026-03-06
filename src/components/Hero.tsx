@@ -16,24 +16,17 @@ export function Hero() {
           <span className="inline-block py-1 px-3 rounded-full bg-[var(--color-accent-light)] text-[var(--color-accent-dark)] text-sm font-semibold tracking-wide mb-6 animate-slide-up-fade">
             EST. 2024
           </span>
-          <Heading
-            level={1}
-            className="text-4xl md:text-6xl lg:text-7xl mb-6 opacity-0 animate-slide-up-fade"
-            style={{ animationDelay: '0.2s' }}
-          >
-            Conscious Apparel, <br />
-            <span className="text-[var(--color-accent)]">Crafted for Little Ones</span>
-          </Heading>
+          <AnimatedHeading />
           <div className="opacity-0 animate-slide-up-fade" style={{ animationDelay: '0.4s' }}>
-            <Text variant="lead" className="mb-8 max-w-lg">
+            <Text variant="lead" className="mb-4 max-w-lg mx-auto md:mx-0">
               Sustainably sourced kidswear and pet products. We blend artisan craftsmanship with eco-friendly materials for the modern wholesale buyer.
             </Text>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap justify-center md:justify-start gap-4">
               <Link to="/products">
-                <Button size="lg">Explore Collection</Button>
+                <Button size="md">Explore Collection</Button>
               </Link>
-              <Link to="/contact">
-                <Button size="lg" variant="outline">Request Catalogue</Button>
+              <Link to="/products#catalogues">
+                <Button size="md" variant="outline">Download Catalogues</Button>
               </Link>
             </div>
           </div>
@@ -121,6 +114,47 @@ function Carousel() {
           to { width: 100%; }
         }
       `}</style>
+    </div>
+  );
+}
+
+function AnimatedHeading() {
+  const statements = [
+    {
+      line1: "Conscious Apparel,",
+      line2: "Crafted for Little Ones."
+    },
+    {
+      line1: "Where Tenderness",
+      line2: "meets Tradition."
+    },
+    {
+      line1: "Rooted in India.",
+      line2: "Raised for the world."
+    }
+  ];
+
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActiveIndex((current) => (current + 1) % statements.length);
+    }, 4000);
+    return () => clearInterval(timer);
+  }, [statements.length]);
+
+  return (
+    <div className="grid mb-4 opacity-0 animate-slide-up-fade w-full" style={{ animationDelay: '0.2s' }}>
+      {statements.map((statement, index) => (
+        <Heading
+          key={index}
+          level={1}
+          className={`col-start-1 row-start-1 text-5xl md:text-6xl lg:text-7xl leading-[1.2] transition-opacity duration-1000 ease-in-out ${index === activeIndex ? "opacity-100 relative z-10" : "opacity-0 pointer-events-none"}`}
+        >
+          {statement.line1} <br />
+          <span className="text-[var(--color-accent)]">{statement.line2}</span>
+        </Heading>
+      ))}
     </div>
   );
 }

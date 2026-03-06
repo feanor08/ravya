@@ -22,7 +22,7 @@ export const Services = () => {
             <Section>
                 <Container>
                     <div className="text-center mb-16">
-                        <Heading level={1} className="text-4xl">Our Services</Heading>
+                        <Heading level={1} className="text-4xl mb-4">Our Services</Heading>
                         <Text variant="lead">Comprehensive solutions for kidswear and pet product brands.</Text>
                     </div>
 

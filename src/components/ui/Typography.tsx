@@ -12,14 +12,13 @@ export const Heading: React.FC<HeadingProps> = ({
     ...props
 }) => {
     const Tag = `h${level}` as React.ElementType;
-    const baseStyle = 'mb-4';
 
     // Tailwind classes aren't set up for "h1", "h2" etc in a utility way without a plugin usually, 
     // but we defined base styles in index.css. 
     // We can add utility classes here if needed or just rely on index.css + overrides.
 
     return (
-        <Tag className={`${baseStyle} ${className}`} {...props}>
+        <Tag className={className} {...props}>
             {children}
         </Tag>
     );

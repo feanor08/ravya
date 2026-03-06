@@ -5,6 +5,10 @@ import { Section } from '../components/ui/Section';
 import { Heading, Text } from '../components/ui/Typography';
 import { ClipboardTextIcon, GlobeIcon, PlantIcon, ScissorsIcon } from '@phosphor-icons/react';
 
+import about1 from '../assets/AboutImage1.webp';
+import about2 from '../assets/AboutImage2.webp';
+import about3 from '../assets/AboutImage3.webp';
+
 export const About = () => {
     const [expanded, setExpanded] = useState(false);
 
@@ -45,11 +49,30 @@ export const About = () => {
                                 House of Ravya was born from a desire to bring India&apos;s timeless textile heritage into the lives of families around the world. What began as a deep appreciation for handcrafted fabrics has grown into a conscious design house creating soulful babywear and pet accessories, woven with care and cultural depth. At HOR, we collaborate with master artisans across India—reviving age-old crafts like Ajrakh, hand block printing, and khadi weaving. Each piece is created slowly and mindfully, using natural materials and traditional processes that honor the earth and those who work with it. Our journey is rooted in simplicity, authenticity, and emotion. We believe that what touches the skin of a baby or a beloved pet should be as honest and pure as the love they bring into our lives. From the first thread to the final touch, every product carries a story of human hands, heritage, and heart. This is not just fashion—it is a homecoming to values we hold dear: warmth, comfort, and conscious living.
                             </Text>
                         </div>
-                        <div className="bg-white p-6 rounded-2xl shadow-sm rotate-2">
-                            <div className="aspect-video bg-[var(--color-bg)] rounded-lg flex items-center justify-center text-[var(--color-text-muted)] mb-4">
-                                Image Placeholder: Workshop or Founders
+                        <div className="flex flex-col items-center justify-center">
+                            {/* Overlapping Image Collage */}
+                            <div className="relative w-full pb-[90%] md:pb-[85%] mb-12 mt-2 mx-auto max-w-[450px]">
+                                {/* Top Left */}
+                                <img
+                                    src={about1}
+                                    alt="House of Ravya Craftsmanship"
+                                    className="absolute top-0 left-0 w-[50%] aspect-square object-cover rounded-2xl shadow-md z-10 transition-transform hover:z-40 hover:scale-105 duration-500 border-4 border-white"
+                                />
+                                {/* Bottom Left */}
+                                <img
+                                    src={about2}
+                                    alt="Sustainable Materials"
+                                    className="absolute bottom-0 left-[5%] w-[45%] aspect-square object-cover rounded-2xl shadow-lg z-20 transition-transform hover:z-40 hover:scale-105 duration-500 border-4 border-white"
+                                />
+                                {/* Center Right */}
+                                <img
+                                    src={about3}
+                                    alt="Finished Eco-friendly Product"
+                                    className="absolute top-[18%] right-0 w-[55%] aspect-square object-cover rounded-2xl shadow-xl z-30 transition-transform hover:z-40 hover:scale-105 duration-500 border-4 border-white"
+                                />
                             </div>
-                            <div className="text-center">
+
+                            <div className="text-center w-full">
                                 <div className="inline-flex flex-col md:flex-row items-center justify-center gap-2 md:gap-2 text-lg font-medium text-[var(--color-text-primary)]">
                                     {[
                                         { letter: "R", word: "eviving" },

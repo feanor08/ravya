@@ -13,9 +13,11 @@
     "@phosphor-icons/react": "^2.1.10",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-router-dom": "^7.13.0"
+    "react-router-dom": "^7.13.0",
+    "resend": "^6.9.3"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260306.1",
     "@eslint/js": "^9.39.2",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^24.10.9",
