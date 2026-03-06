@@ -2,15 +2,17 @@ import { Container } from '../components/ui/Container';
 import { Section } from '../components/ui/Section';
 import { Heading, Text } from '../components/ui/Typography';
 import { Card } from '../components/ui/Card';
-import { Scissors, Truck, Palette, Package, Users, Plant, Heart, Globe } from '@phosphor-icons/react';
+import { ScissorsIcon, TruckIcon, PaletteIcon, PackageIcon, UsersIcon, PlantIcon, HeartIcon, GlobeIcon, LightbulbIcon, WrenchIcon } from '@phosphor-icons/react';
 import { useInView } from '../hooks/useInView';
 
 export const Services = () => {
     const services = [
-        { title: 'Private Label Manufacturing', icon: <Scissors className="w-10 h-10" weight="duotone" />, desc: 'End-to-end manufacturing with your brand tags and specifications.' },
-        { title: 'Custom Design', icon: <Palette className="w-10 h-10" weight="duotone" />, desc: 'Our design team helps bring your sketches and concepts to life.' },
-        { title: 'Global Logistics', icon: <Truck className="w-10 h-10" weight="duotone" />, desc: 'Efficient shipping solutions to over 30 countries worldwide.' },
-        { title: 'Wholesale Sourcing', icon: <Package className="w-10 h-10" weight="duotone" />, desc: 'Bulk ordering of our ready-to-ship sustainable collections.' },
+        { title: 'Consultancy', icon: <LightbulbIcon size={32} weight="duotone" />, desc: 'Strategic guidance on sustainable materials, ethical sourcing, and building conscious brand identities.' },
+        { title: 'Product Development', icon: <WrenchIcon size={32} weight="duotone" />, desc: 'From initial concept and prototyping to final production-ready designs for kidswear and pet essentials.' },
+        { title: 'Private Label Manufacturing', icon: <ScissorsIcon size={32} weight="duotone" />, desc: 'End-to-end manufacturing with your brand tags and specifications.' },
+        { title: 'Custom Design', icon: <PaletteIcon size={32} weight="duotone" />, desc: 'Our design team helps bring your sketches and concepts to life.' },
+        { title: 'Global Logistics', icon: <TruckIcon size={32} weight="duotone" />, desc: 'Efficient shipping solutions to over 30 countries worldwide.' },
+        { title: 'Wholesale Sourcing', icon: <PackageIcon size={32} weight="duotone" />, desc: 'Bulk ordering of our ready-to-ship sustainable collections.' },
     ];
 
     const { ref: processRef, isInView } = useInView({ threshold: 0.2 });
@@ -24,16 +26,18 @@ export const Services = () => {
                         <Text variant="lead">Comprehensive solutions for kidswear and pet product brands.</Text>
                     </div>
 
-                    <div className="grid md:grid-cols-2 gap-8">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {services.map((s) => (
-                            <Card key={s.title} className="flex flex-col md:flex-row gap-6 items-start hover:shadow-lg transition-shadow">
-                                <div className="p-4 bg-[var(--color-bg-warm)] rounded-full text-[var(--color-accent)]">
+                            <Card key={s.title} variant="flat" className="relative overflow-hidden p-8 h-full border border-[var(--color-bg-warm)] hover:shadow-md transition-shadow">
+                                <div className="absolute top-6 right-6 text-[var(--color-accent)] z-10">
                                     {s.icon}
                                 </div>
-                                <div>
-                                    <Heading level={3} className="text-xl mb-2">{s.title}</Heading>
-                                    <Text>{s.desc}</Text>
+                                <div className="mb-6 pr-12 relative z-10">
+                                    <Heading level={3} className="text-xl m-0">{s.title}</Heading>
                                 </div>
+                                <Text className="text-[var(--color-text-secondary)] relative z-10">
+                                    {s.desc}
+                                </Text>
                             </Card>
                         ))}
                     </div>
@@ -51,10 +55,10 @@ export const Services = () => {
                         />
 
                         {[
-                            { title: 'Collaboration', icon: <Users className="w-8 h-8" weight="duotone" />, desc: 'We work directly with artisan communities to understand their strengths and traditions.' },
-                            { title: 'Sourcing', icon: <Plant className="w-8 h-8" weight="duotone" />, desc: 'Selecting premium organic cottons and natural dyes that are kind to the planet.' },
-                            { title: 'Manufacturing', icon: <Heart className="w-8 h-8" weight="duotone" />, desc: 'Ethical production ensuring fair wages and safe working conditions for all makers.' },
-                            { title: 'Delivery', icon: <Globe className="w-8 h-8" weight="duotone" />, desc: 'Seamless global logistics ensuring your products arrive safely and on time.' },
+                            { title: 'Collaboration', icon: <UsersIcon className="w-8 h-8" weight="duotone" />, desc: 'We work directly with artisan communities to understand their strengths and traditions.' },
+                            { title: 'Sourcing', icon: <PlantIcon className="w-8 h-8" weight="duotone" />, desc: 'Selecting premium organic cottons and natural dyes that are kind to the planet.' },
+                            { title: 'Manufacturing', icon: <HeartIcon className="w-8 h-8" weight="duotone" />, desc: 'Ethical production ensuring fair wages and safe working conditions for all makers.' },
+                            { title: 'Delivery', icon: <GlobeIcon className="w-8 h-8" weight="duotone" />, desc: 'Seamless global logistics ensuring your products arrive safely and on time.' },
                         ].map((step, index) => (
                             <div
                                 key={index}

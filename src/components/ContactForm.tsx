@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Baby, PawPrint, Check } from '@phosphor-icons/react';
+import { BabyIcon, PawPrintIcon, CheckIcon } from '@phosphor-icons/react';
 import { Container } from './ui/Container';
 import { Section } from './ui/Section';
 import { Heading, Text } from './ui/Typography';
@@ -91,12 +91,12 @@ export function ContactForm() {
                     }`}
                 >
                   <div className={`p-2.5 rounded-full transition-colors ${formData.kidswear ? 'bg-[var(--color-accent)] text-white' : 'bg-gray-50 text-gray-400 group-hover:text-[var(--color-accent)]'}`}>
-                    <Baby className="w-5 h-5" weight="duotone" />
+                    <BabyIcon className="w-5 h-5" weight="duotone" />
                   </div>
                   <Heading level={4} className={`text-base m-0 ${formData.kidswear ? 'text-[var(--color-accent-dark)]' : 'text-[var(--color-text-primary)]'}`}>Kidswear</Heading>
                   {formData.kidswear && (
                     <div className="absolute top-2 right-2 text-[var(--color-accent)]">
-                      <Check className="w-4 h-4" weight="bold" />
+                      <CheckIcon className="w-4 h-4" weight="bold" />
                     </div>
                   )}
                 </div>
@@ -110,12 +110,12 @@ export function ContactForm() {
                     }`}
                 >
                   <div className={`p-2.5 rounded-full transition-colors ${formData.petProducts ? 'bg-[var(--color-accent)] text-white' : 'bg-gray-50 text-gray-400 group-hover:text-[var(--color-accent)]'}`}>
-                    <PawPrint className="w-5 h-5" weight="duotone" />
+                    <PawPrintIcon className="w-5 h-5" weight="duotone" />
                   </div>
                   <Heading level={4} className={`text-base m-0 ${formData.petProducts ? 'text-[var(--color-accent-dark)]' : 'text-[var(--color-text-primary)]'}`}>Pet Wear</Heading>
                   {formData.petProducts && (
                     <div className="absolute top-2 right-2 text-[var(--color-accent)]">
-                      <Check className="w-4 h-4" weight="bold" />
+                      <CheckIcon className="w-4 h-4" weight="bold" />
                     </div>
                   )}
                 </div>

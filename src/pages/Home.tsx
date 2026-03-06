@@ -1,18 +1,14 @@
 import { Hero } from '../components/Hero';
-import { Features } from '../components/Features';
+import { VisionMission } from '../components/VisionMission';
 import { ProductCategories } from '../components/ProductCategories';
-import { ArtisanSection } from '../components/ArtisanSection';
 import { ContactForm } from '../components/ContactForm';
-import { FooterStats } from '../components/FooterStats';
 
 export const Home = () => {
     return (
         <>
             <Hero />
-            <FooterStats />
-            <Features />
+            <VisionMission />
             <ProductCategories />
-            <ArtisanSection />
             <ContactForm />
         </>
     );

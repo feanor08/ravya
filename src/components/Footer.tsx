@@ -13,8 +13,8 @@ export const Footer = () => {
                     {/* Column 1: Company Info */}
                     <div className="space-y-4 lg:col-span-4 flex flex-col items-center text-center">
                         <img src={footerLogo} alt="House of Ravya" className="w-[80%] object-contain mb-2" />
-                        <p className="text-[var(--color-accent-light)] italic text-sm">
-                            "Reviving Artisanal Value Yielding Authenticity"
+                        <p className="text-[var(--color-accent-light)] text-sm">
+                            Reviving Artisanal Value <br /> Yielding Authenticity
                         </p>
                     </div>
 
@@ -46,15 +46,19 @@ export const Footer = () => {
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3">
                                 <MapPinIcon className="w-5 h-5 flex-shrink-0" weight="duotone" />
-                                <span className="text-gray-300">#473/D, 15th cross, 8th Main, Ideal Homes Township, Rajarajeshwari Nagar, Bangalore, 560098</span>
+                                <span className="text-gray-300">8 & 9, Jayaramappa Complex, Sy No. 353, Bidaraguppe, Sarjapur-Attibele Road, Bengaluru, Karnataka 572101</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <PhoneIcon className="w-5 h-5 flex-shrink-0" weight="duotone" />
-                                <span className="text-gray-300">+91 83104 52882</span>
+                                <a href="tel:+918310452882" className="text-gray-300 hover:text-[var(--color-accent)] transition-colors">
+                                    +91 83104 52882
+                                </a>
                             </li>
                             <li className="flex items-center gap-3">
                                 <EnvelopeIcon className="w-5 h-5 flex-shrink-0" weight="duotone" />
-                                <span className="text-gray-300">sales@houseofravya.com</span>
+                                <a href="mailto:sales@houseofravya.com" className="text-gray-300 hover:text-[var(--color-accent)] transition-colors">
+                                    sales@houseofravya.com
+                                </a>
                             </li>
                         </ul>
                     </div>

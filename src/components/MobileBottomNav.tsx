@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import { House, Info, Sparkle, ShoppingBag, Envelope } from '@phosphor-icons/react';
+import { HouseIcon, InfoIcon, SparkleIcon, ShoppingBagIcon, EnvelopeIcon } from '@phosphor-icons/react';
 
 export function MobileBottomNav() {
     const location = useLocation();
@@ -8,11 +8,11 @@ export function MobileBottomNav() {
     const itemsRef = useRef<(HTMLAnchorElement | null)[]>([]);
 
     const navItems = [
-        { path: '/', icon: <House size={22} weight="duotone" /> },
-        { path: '/about', icon: <Info size={22} weight="duotone" /> },
-        { path: '/services', icon: <Sparkle size={22} weight="duotone" /> },
-        { path: '/products', icon: <ShoppingBag size={22} weight="duotone" /> },
-        { path: '/contact', icon: <Envelope size={22} weight="duotone" /> },
+        { path: '/', icon: <HouseIcon size={22} weight="duotone" /> },
+        { path: '/about', icon: <InfoIcon size={22} weight="duotone" /> },
+        { path: '/services', icon: <SparkleIcon size={22} weight="duotone" /> },
+        { path: '/products', icon: <ShoppingBagIcon size={22} weight="duotone" /> },
+        { path: '/contact', icon: <EnvelopeIcon size={22} weight="duotone" /> },
     ];
 
     useEffect(() => {

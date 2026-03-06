@@ -16,10 +16,10 @@
 
   /* Earthy, Premium & Sustainable Palette */
   /* Bases */
-  --color-bg: #FAFAFA;
-  /* Very warm off-white */
-  --color-bg-alt: #F5EFEB;
-  /* Slightly darker warm beige */
+  --color-bg: #FFFFFF;
+  /* Pure warm white */
+  --color-bg-alt: #FDF9F6;
+  /* Extremely subtle, airy warm beige */
   --color-bg-card: #FFFFFF;
 
   /* Text */
@@ -33,13 +33,13 @@
   --color-accent: #7C6A5A;
   /* Warm Taupe/Brown */
   --color-accent-hover: #5D4D40;
-  --color-accent-light: #EBE5DF;
-  /* Light Taupe for backgrounds */
+  --color-accent-light: #F4EFEC;
+  /* Even Lighter Taupe for subtle backgrounds */
   --color-success: #5F7161;
   /* Muted Green */
 
   /* UI */
-  --color-border: #E6E0DB;
+  --color-border: #F0EBE6;
   --radius-sm: 0.25rem;
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
